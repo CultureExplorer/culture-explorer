@@ -1,4 +1,4 @@
-ï»¿---
+---
 import BaseLayout from "../layouts/BaseLayout.astro"
 import { fetchCities } from "../lib/sanity"
 
@@ -24,7 +24,7 @@ const pins = cities
   })
   .filter(Boolean)
 ---
-<BaseLayout title="Journeys â€” Culture Explorer" description="Routes shaped by memory, craft, and liturgy.">
+<BaseLayout title="Journeys — Culture Explorer" description="Routes shaped by memory, craft, and liturgy.">
   <section class="hero" style="min-height:78vh;">
     <img src={hero} alt="Venice canal at dusk" />
     <div class="hero-copy">
@@ -39,7 +39,7 @@ const pins = cities
       <div class="section-head">
         <div class="kicker">World</div>
         <h2>Cities that still teach</h2>
-        <p class="muted">Click a pin to open that cityâ€™s guide.</p>
+        <p class="muted">Click a pin to open that city’s guide.</p>
       </div>
       <div id="journeys-map" style="height: min(520px, 70vh); border: 1px solid var(--rule, #d0c0a6); z-index: 1;"></div>
     </div>

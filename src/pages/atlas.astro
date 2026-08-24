@@ -1,18 +1,18 @@
-ï»¿---
+---
 import BaseLayout from "../layouts/BaseLayout.astro"
 import { fetchMasterpieces } from "../lib/sanity"
 
 const works = await fetchMasterpieces()
 const hero = "/images/library.jpg"
 ---
-<BaseLayout title="Atlas â€” Culture Explorer" description="Masterpieces that preserve civilizational memory.">
+<BaseLayout title="Atlas — Culture Explorer" description="Masterpieces that preserve civilizational memory.">
   <section style="position:relative;min-height:70vh;display:grid;align-items:end;overflow:hidden;">
     <img src={hero} alt="" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;" />
     <div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(20,14,10,0.25),rgba(20,14,10,0.78));"></div>
     <div class="wrap" style="position:relative;z-index:2;padding:4rem 0 3rem;color:#f7f1e6;">
       <div class="kicker" style="color:#e6c48a;">A growing atlas of rooms, images, and public form</div>
       <h1 style="color:#fff;max-width:16ch;margin-top:0.6rem;">Masterpieces that preserve civilizational memory.</h1>
-      <p class="lede" style="color:rgba(247,241,230,0.9);max-width:40ch;">Each entry is a doorway into attention â€” not a thumbnail in a feed.</p>
+      <p class="lede" style="color:rgba(247,241,230,0.9);max-width:40ch;">Each entry is a doorway into attention — not a thumbnail in a feed.</p>
     </div>
   </section>
 
@@ -48,7 +48,7 @@ const hero = "/images/library.jpg"
     />}
             </div>
             <div class="body">
-              <div class="meta">{w.kind}{w.cityName ? ` Â· ${w.cityName}` : ""}</div>
+              <div class="meta">{w.kind}{w.cityName ? ` · ${w.cityName}` : ""}</div>
               <h3>{w.title}</h3>
               <p class="muted">{w.artist}</p>
               <p>{w.cardBlurb}</p>
