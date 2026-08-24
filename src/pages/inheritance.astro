@@ -1,0 +1,202 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro"
+---
+<BaseLayout
+  title="Your Inheritance — Culture Explorer"
+  description="A private ledger of works you have actually looked at. Earned memory, not scrolling."
+>
+  <div class="page-hero with-photo">
+    <img
+      src="https://images.unsplash.com/photo-1554907984-15263bfd63bd?auto=format&fit=crop&w=2000&q=80"
+      alt=""
+    />
+    <div class="wrap-narrow">
+      <div class="kicker">Earned memory</div>
+      <h1>Your Inheritance.</h1>
+      <p class="lede">
+        <span id="count">0</span> works earned. This is not a streak. It is a record of attention you can one day hand to someone younger.
+      </p>
+    </div>
+  </div>
+
+  <section style="padding-top:0">
+    <div class="wrap-narrow">
+      <div class="ledger" id="ledger"></div>
+      <p class="empty-state" id="empty">
+        Nothing earned yet. Look first — on How to See — then add a work only after you have stayed with it.
+      </p>
+      <p style="margin-top:2rem">
+        <a class="btn" href="/see">Begin looking</a>
+        <a class="btn" href="/atlas" style="margin-left:0.5rem;">Atlas</a>
+      </p>
+    </div>
+  </section>
+
+  <section class="band">
+    <div class="wrap-narrow">
+      <h2>What to show a child</h2>
+      <p>By eight: one sacred interior, one public statue, one story they can retell.</p>
+      <p>By twelve: a building they can explain without a plaque, a book read slowly, a cemetery walk.</p>
+      <p>By sixteen: a judgment pair — something that endured beside something we accepted.</p>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .page-hero.with-photo {
+    position: relative;
+    min-height: 54vh;
+    display: grid;
+    place-items: end;
+    color: #fff;
+    padding: 0 0 4rem;
+  }
+  .page-hero.with-photo img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .page-hero.with-photo::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(12, 9, 6, 0.15), rgba(12, 9, 6, 0.72));
+  }
+  .page-hero.with-photo .wrap-narrow {
+    position: relative;
+    z-index: 2;
+  }
+  .page-hero.with-photo h1 { color: #fff; }
+  .page-hero.with-photo .lede { color: rgba(255, 255, 255, 0.88); }
+  .page-hero.with-photo .kicker { color: #e6c48a; }
+
+  .ledger {
+    border-top: 1px solid var(--rule, #d0c0a6);
+  }
+  .ledger-item {
+    display: flex;
+    gap: 1.1rem;
+    align-items: center;
+    padding: 1.15rem 0;
+    border-bottom: 1px solid var(--rule, #d0c0a6);
+  }
+  .ledger-item .thumb {
+    width: 88px;
+    height: 88px;
+    flex-shrink: 0;
+    object-fit: cover;
+    border: 1px solid var(--rule, #d0c0a6);
+    background: #cbb89a;
+  }
+  .ledger-item .thumb.placeholder {
+    display: block;
+    background: #e8dcc6;
+  }
+  .ledger-item .info {
+    flex: 1;
+    min-width: 0;
+  }
+  .ledger-item .meta {
+    font-family: var(--sans, Jost, sans-serif);
+    font-size: 0.66rem;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--bronze-d, #6a4824);
+    margin-bottom: 0.25rem;
+  }
+  .ledger-item h3 {
+    margin: 0;
+    font-size: 1.35rem;
+  }
+  .ledger-item .when {
+    flex-shrink: 0;
+    color: var(--ink-3, #6e6254);
+    font-size: 0.95rem;
+  }
+  .empty-state {
+    padding: 2rem 0 0;
+    color: var(--ink-3, #6e6254);
+  }
+  .empty-state.is-hidden {
+    display: none;
+  }
+</style>
+
+<script>
+  const KEY = "ce-inheritance"
+  const ledger = document.getElementById("ledger")
+  const empty = document.getElementById("empty")
+  const countEl = document.getElementById("count")
+
+  function load() {
+    try {
+      const raw = localStorage.getItem(KEY)
+      return raw ? JSON.parse(raw) : []
+    } catch (e) {
+      return []
+    }
+  }
+
+  function render() {
+    const list = load()
+    if (countEl) countEl.textContent = String(list.length)
+    if (!ledger) return
+    ledger.innerHTML = ""
+
+    if (!list.length) {
+      empty?.classList.remove("is-hidden")
+      return
+    }
+    empty?.classList.add("is-hidden")
+
+    list.forEach((item) => {
+      const row = document.createElement("div")
+      row.className = "ledger-item"
+
+      if (item.image) {
+        const img = document.createElement("img")
+        img.className = "thumb"
+        img.src = item.image
+        img.alt = item.title || ""
+        row.appendChild(img)
+      } else {
+        const ph = document.createElement("div")
+        ph.className = "thumb placeholder"
+        row.appendChild(ph)
+      }
+
+      const info = document.createElement("div")
+      info.className = "info"
+      const meta = document.createElement("div")
+      meta.className = "meta"
+      meta.textContent = item.kind || "Earned"
+      const title = document.createElement("h3")
+      if (item.href) {
+        const a = document.createElement("a")
+        a.href = item.href
+        a.textContent = item.title || item.id
+        title.appendChild(a)
+      } else {
+        title.textContent = item.title || item.id
+      }
+      info.appendChild(meta)
+      info.appendChild(title)
+      row.appendChild(info)
+
+      const when = document.createElement("div")
+      when.className = "when"
+      if (item.at) {
+        try {
+          when.textContent = new Date(item.at).toLocaleDateString()
+        } catch (e) {}
+      }
+      row.appendChild(when)
+
+      ledger.appendChild(row)
+    })
+  }
+
+  render()
+</script>

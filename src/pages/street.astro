@@ -1,0 +1,160 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro"
+---
+<BaseLayout
+  title="Your Street — Culture Explorer"
+  description="Walk your own town as if it were Rome. Apply the same standard of beauty and memory to civic buildings, churches, and main streets."
+>
+  <div class="page-hero with-photo">
+    <img
+      src="https://images.unsplash.com/photo-1449824913935-59a10b8d2000?auto=format&fit=crop&w=2000&q=80"
+      alt=""
+    />
+    <div class="wrap">
+      <div class="kicker">Home as a second Rome</div>
+      <h1>Walk your town as if it were worth keeping.</h1>
+      <p class="lede">
+        The future of a civilization begins on your street. The same standard you bring to Bernini applies to a courthouse, a church, a library, and a parking garage.
+      </p>
+    </div>
+  </div>
+
+  <section style="padding-top:0">
+    <div class="wrap street-grid">
+      <div class="grid-2">
+        <article class="card">
+          <div class="media">
+            <img
+              src="https://images.unsplash.com/photo-1449824913935-59a10b8d2000?auto=format&fit=crop&w=1600&q=80"
+              alt="City street"
+            />
+          </div>
+          <div class="body">
+            <div class="meta">The main street</div>
+            <h3>What does the first block teach?</h3>
+            <p>
+              Walk it once without buying anything. Note what was built to last, what was built to advertise, and what was allowed to decay. A street is a curriculum.
+            </p>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="body">
+            <div class="meta">The civic building</div>
+            <h3>Courthouse, city hall, post office</h3>
+            <p>
+              Does the entrance lift you or process you? Are the materials local and serious, or a thin skin over a box? If the seal were removed, would you still know this was a public house?
+            </p>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="body">
+            <div class="meta">The sacred room</div>
+            <h3>A parish church, temple, or mosque</h3>
+            <p>
+              Enter if you may. Stand. Notice light, proportion, silence. Even a modest building can keep a standard the shopping center has abandoned.
+            </p>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="media">
+            <img
+              src="https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=1600&q=80"
+              alt="Library"
+            />
+          </div>
+          <div class="body">
+            <div class="meta">The library</div>
+            <h3>Memory stacked in public</h3>
+            <p>
+              Is it treated as a warehouse of wifi, or as a room that still believes reading forms a person? Look at the oldest wing first.
+            </p>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="body">
+            <div class="meta">The cemetery</div>
+            <h3>How a town speaks to its dead</h3>
+            <p>
+              Names, stone, trees, neglect. A people that cannot tend graves will not tend facades. This is not morbidity. It is the most honest civic document you have.
+            </p>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="body">
+            <div class="meta">The repair</div>
+            <h3>One thing you can refuse</h3>
+            <p>
+              A vinyl window on a brick house. A plastic sign on a carved lintel. A demolition no one argued against. Beauty is defended in small, unfashionable acts.
+            </p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="band">
+    <div class="wrap-narrow">
+      <h2>A one-hour local journey</h2>
+      <p>
+        Choose five stops within walking distance: civic, sacred, commercial, memorial, domestic. At each, ask only three questions. What did this ask of its makers? What does it form in a passerby? What would it mean to pass it on intact?
+      </p>
+      <p>Write the answers. That page belongs in your Inheritance.</p>
+      <p style="margin-top:1.5rem;">
+        <a class="btn" href="/inheritance">Open Inheritance</a>
+        <a class="btn" href="/see" style="margin-left:0.5rem;">How to See</a>
+      </p>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .page-hero.with-photo {
+    position: relative;
+    min-height: 54vh;
+    display: grid;
+    place-items: end;
+    color: #fff;
+    padding: 0 0 4rem;
+  }
+  .page-hero.with-photo img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .page-hero.with-photo::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(12, 9, 6, 0.15), rgba(12, 9, 6, 0.72));
+  }
+  .page-hero.with-photo .wrap {
+    position: relative;
+    z-index: 2;
+  }
+  .page-hero.with-photo h1 {
+    color: #fff;
+  }
+  .page-hero.with-photo .lede {
+    color: rgba(255, 255, 255, 0.88);
+  }
+  .page-hero.with-photo .kicker {
+    color: #e6c48a;
+  }
+  .grid-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+  }
+  @media (max-width: 900px) {
+    .grid-2 {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

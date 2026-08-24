@@ -1,0 +1,188 @@
+﻿---
+import BaseLayout from "../../layouts/BaseLayout.astro"
+import { fetchCityBySlug, fetchCitySlugs } from "../../lib/sanity"
+import fs from "node:fs"
+import path from "node:path"
+
+export async function getStaticPaths() {
+  const slugs = await fetchCitySlugs()
+  return (slugs || []).map((slug) => ({ params: { slug } }))
+}
+
+const { slug } = Astro.params
+const city = await fetchCityBySlug(slug)
+if (!city) return Astro.redirect("/journeys")
+
+const locById = Object.fromEntries((city.locations || []).map((l) => [l.id, l]))
+const workList = city.masterpieces || []
+
+let plan = null
+try {
+  const p = path.join(process.cwd(), "data", "itineraries", `${slug}.json`)
+  if (fs.existsSync(p)) plan = JSON.parse(fs.readFileSync(p, "utf8"))
+} catch {}
+
+const center = plan?.center || [41.9, 12.5]
+const zoom = plan?.zoom || 13
+const pins = plan?.pins || {}
+const tours = plan?.tours || null
+
+const mapPoints = Object.entries(pins).map(([id, ll]) => {
+  const loc = locById[id]
+  return {
+    id,
+    name: loc?.name || id,
+    lat: ll[0],
+    lon: ll[1],
+    kind: loc?.kind || "",
+  }
+})
+---
+<BaseLayout title={`${city.name} — Culture Explorer`} description={city.intro || city.tagline}>
+  <section class="hero" style="min-height:70vh;">
+    {city.heroImage
+      ? <img src={city.heroImage} alt={city.name} />
+      : <img src={`/images/${city.id}.jpg`} alt={city.name} />}
+    <div class="hero-copy">
+      <div class="hero-pill">{city.country}</div>
+      <h1>{city.name}</h1>
+      <p class="lede">{city.tagline}</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap-narrow">
+      {city.intro && <p class="lede">{city.intro}</p>}
+      <p class="muted">Walk by days, not by checklist. Choose a tour length, then stay with fewer places longer.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="section-head">
+        <div class="kicker">Map</div>
+        <h2>The city as a field</h2>
+      </div>
+      <div id="city-map" style="height:min(480px,65vh);border:1px solid var(--rule,#d0c0a6);"></div>
+      <p class="muted" style="margin-top:0.75rem;">Pins mark places in this guide. Click a pin for the name.</p>
+    </div>
+  </section>
+
+  {tours ? (
+    <section>
+      <div class="wrap">
+        <div class="section-head">
+          <div class="kicker">Tours</div>
+          <h2>Routes shaped by attention</h2>
+        </div>
+
+        <div class="tour-tabs" style="display:flex;flex-wrap:wrap;gap:0.6rem;margin-bottom:1.5rem;">
+          <button type="button" class="btn tour-tab is-active" data-days="3" style="background:#16110c;color:#fbf6ec;border-color:#16110c;">3 days</button>
+          <button type="button" class="btn tour-tab" data-days="5">5 days</button>
+          <button type="button" class="btn tour-tab" data-days="7">7 days</button>
+        </div>
+
+        {["3", "5", "7"].map((days) => (
+          <div class="tour-panel" data-panel={days} style={days === "3" ? "" : "display:none"}>
+            {(tours[days] || []).map((d) => (
+              <article class="day-card" style="border:1px solid var(--rule,#d0c0a6);padding:1.25rem 1.5rem;margin-bottom:1rem;background:#fbf6ec;">
+                <div class="meta">Day {d.day}</div>
+                <h3 style="margin:0.25rem 0;">{d.title}</h3>
+                <p class="muted" style="margin-bottom:1rem;">{d.focus}</p>
+                <ol style="margin:0;padding-left:1.2rem;">
+                  {(d.stops || []).map((sid) => {
+                    const loc = locById[sid]
+                    return (
+                      <li style="margin-bottom:0.75rem;">
+                        <strong>{loc?.name || sid}</strong>
+                        {loc?.kind && <span class="muted"> · {loc.kind}</span>}
+                        {loc?.shortGuide && <p style="margin:0.35rem 0 0;">{loc.shortGuide}</p>}
+                      </li>
+                    )
+                  })}
+                </ol>
+              </article>
+            ))}
+          </div>
+        ))}
+      </div>
+    </section>
+  ) : (
+    <section>
+      <div class="wrap-narrow">
+        <p class="muted">A multi-day tour for {city.name} is not written yet. Locations and works are below.</p>
+      </div>
+    </section>
+  )}
+
+  <section>
+    <div class="wrap">
+      <div class="section-head">
+        <div class="kicker">Works</div>
+        <h2>Masterpieces in {city.name}</h2>
+      </div>
+      <div class="grid-3">
+        {workList.map((w) => (
+          <a class="card" href={`/works/${w.id}`}>
+            <div class="media">
+              {w.image
+                ? <img src={w.image} alt={w.title} />
+                : <img src="/images/statue.jpg" alt={w.title} />}
+            </div>
+            <div class="body">
+              <div class="meta">{w.kind}</div>
+              <h3>{w.title}</h3>
+              <p class="muted">{w.artist}</p>
+              <p>{w.cardBlurb}</p>
+            </div>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<link
+  rel="stylesheet"
+  href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+  crossorigin=""
+/>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+<script define:vars={{ center, zoom, mapPoints }}>
+  const el = document.getElementById("city-map")
+  if (el && window.L) {
+    const map = L.map(el, { scrollWheelZoom: false }).setView(center, zoom)
+    L.tileLayer("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png", {
+      attribution: "&copy; OpenStreetMap &copy; CARTO",
+      maxZoom: 18,
+    }).addTo(map)
+    const markers = []
+    for (const p of mapPoints) {
+      const m = L.marker([p.lat, p.lon]).addTo(map)
+      m.bindPopup(`<strong>${p.name}</strong>${p.kind ? `<br>${p.kind}` : ""}`)
+      markers.push(m)
+    }
+    if (markers.length) {
+      map.fitBounds(L.featureGroup(markers).getBounds().pad(0.2))
+    }
+  }
+
+  document.querySelectorAll(".tour-tab").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const days = btn.getAttribute("data-days")
+      document.querySelectorAll(".tour-tab").forEach((b) => {
+        b.classList.remove("is-active")
+        b.style.background = ""
+        b.style.color = ""
+        b.style.borderColor = ""
+      })
+      btn.classList.add("is-active")
+      btn.style.background = "#16110c"
+      btn.style.color = "#fbf6ec"
+      btn.style.borderColor = "#16110c"
+      document.querySelectorAll(".tour-panel").forEach((panel) => {
+        panel.style.display = panel.getAttribute("data-panel") === days ? "" : "none"
+      })
+    })
+  })
+</script>

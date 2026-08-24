@@ -1,0 +1,97 @@
+﻿---
+import BaseLayout from "../layouts/BaseLayout.astro"
+import { fetchCities } from "../lib/sanity"
+
+const cities = await fetchCities()
+const hero = "/images/venice-canal.jpg"
+
+const coords = {
+  rome: [41.9, 12.5],
+  florence: [43.77, 11.25],
+  venice: [45.44, 12.3],
+  paris: [48.86, 2.35],
+  kyoto: [35.01, 135.77],
+  agra: [27.18, 78.04],
+  istanbul: [41.01, 28.98],
+  athens: [37.98, 23.73],
+}
+
+const pins = cities
+  .map((c) => {
+    const ll = coords[c.id]
+    if (!ll) return null
+    return { id: c.id, name: c.name, lat: ll[0], lon: ll[1] }
+  })
+  .filter(Boolean)
+---
+<BaseLayout title="Journeys — Culture Explorer" description="Routes shaped by memory, craft, and liturgy.">
+  <section class="hero" style="min-height:78vh;">
+    <img src={hero} alt="Venice canal at dusk" />
+    <div class="hero-copy">
+      <div class="hero-pill">More than motion</div>
+      <h1>Routes shaped by memory, craft, and liturgy.</h1>
+      <p class="lede">Travel guides for people who want to walk a city the way a civilization asked to be walked.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="section-head">
+        <div class="kicker">World</div>
+        <h2>Cities that still teach</h2>
+        <p class="muted">Click a pin to open that city’s guide.</p>
+      </div>
+      <div id="journeys-map" style="height: min(520px, 70vh); border: 1px solid var(--rule, #d0c0a6); z-index: 1;"></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="grid-3">
+        {cities.map((c) => (
+          <a class="card" href={`/cities/${c.id}`}>
+            <div class="media wide">
+              {c.heroImage
+                ? <img src={c.heroImage} alt={c.name} />
+                : <img src={`/images/${c.id}.jpg`} alt={c.name} />}
+            </div>
+            <div class="body">
+              <div class="meta">{c.country}</div>
+              <h3>{c.name}</h3>
+              <p>{c.tagline}</p>
+            </div>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<link
+  rel="stylesheet"
+  href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+  integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+  crossorigin=""
+/>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<script define:vars={{ pins }}>
+  const map = L.map("journeys-map", { scrollWheelZoom: false }).setView([30, 20], 2)
+  L.tileLayer("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png", {
+    attribution: '&copy; OpenStreetMap &copy; CARTO',
+    maxZoom: 18,
+  }).addTo(map)
+
+  const markers = []
+  for (const p of pins) {
+    const m = L.marker([p.lat, p.lon]).addTo(map)
+    m.bindPopup(`<a href="/cities/${p.id}"><strong>${p.name}</strong></a>`)
+    m.on("click", () => {
+      window.location.href = `/cities/${p.id}`
+    })
+    markers.push(m)
+  }
+  if (markers.length) {
+    const group = L.featureGroup(markers)
+    map.fitBounds(group.getBounds().pad(0.35))
+  }
+</script>

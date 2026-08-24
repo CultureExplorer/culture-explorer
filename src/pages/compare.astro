@@ -1,0 +1,123 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro"
+---
+<BaseLayout
+  title="Judgment Pairs — Culture Explorer"
+  description="Beauty argued by comparison: what endured beside what we accept. Domes, towers, and civilizational standards."
+>
+  <div class="page-hero with-photo">
+    <img
+      src="https://images.pexels.com/photos/753639/pexels-photo-753639.jpeg?auto=compress&cs=tinysrgb&w=2000"
+      alt=""
+    />
+    <div class="wrap-narrow">
+      <div class="kicker">Beauty is argued by comparison</div>
+      <h1>What endured. What we accept.</h1>
+      <p class="lede">
+        Do not debate taste in the abstract. Place two facades beside each other and let the eye finish the sentence.
+      </p>
+    </div>
+  </div>
+
+  <section style="padding-top:0">
+    <div class="wrap">
+      <div class="compare">
+        <figure>
+          <img
+            src="https://images.pexels.com/photos/753639/pexels-photo-753639.jpeg?auto=compress&cs=tinysrgb&w=1800"
+            alt="St. Peter's Basilica at dusk"
+          />
+          <figcaption>
+            <strong>A dome that still organizes a city.</strong> Built to lift the eye, last, and be loved by people not yet born.
+          </figcaption>
+        </figure>
+        <figure>
+          <img
+            src="https://images.unsplash.com/photo-1486325212027-8081e485255e?auto=format&fit=crop&w=1600&q=80"
+            alt="Curtain-wall glass tower"
+          />
+          <figcaption>
+            <strong>A tower that could belong to any country.</strong> Built to be leased, photographed, and replaced.
+          </figcaption>
+        </figure>
+      </div>
+
+      <div class="wrap-narrow" style="margin-top:3rem">
+        <h2>The question is not “which is newer.”</h2>
+        <p>
+          One building asks for pilgrimage. The other asks for a logo on the fortieth floor. Both are expensive. Only one becomes a memory you would teach a child to honor.
+        </p>
+        <p>
+          Cities like London and Dubai fill with identical glass because we were taught that beauty is subjective, optional, even embarrassing. The past is not embarrassed. It left us the dome.
+        </p>
+        <p>Now walk your own skyline. Which buildings would you still photograph if the brand names were gone?</p>
+        <p>
+          <a class="btn" href="/street">Take this eye home</a>
+          <a class="btn" href="/see" style="margin-left:0.5rem;">Back to How to See</a>
+        </p>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .page-hero.with-photo {
+    position: relative;
+    min-height: 54vh;
+    display: grid;
+    place-items: end;
+    color: #fff;
+    padding: 0 0 4rem;
+  }
+  .page-hero.with-photo img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .page-hero.with-photo::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(12, 9, 6, 0.15), rgba(12, 9, 6, 0.72));
+  }
+  .page-hero.with-photo .wrap-narrow {
+    position: relative;
+    z-index: 2;
+  }
+  .page-hero.with-photo h1 {
+    color: #fff;
+  }
+  .page-hero.with-photo .lede {
+    color: rgba(255, 255, 255, 0.88);
+  }
+  .page-hero.with-photo .kicker {
+    color: #e6c48a;
+  }
+  .compare {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 14px;
+  }
+  .compare figure {
+    margin: 0;
+  }
+  .compare img {
+    width: 100%;
+    height: 58vh;
+    object-fit: cover;
+  }
+  .compare figcaption {
+    margin-top: 0.7rem;
+    color: var(--ink-2, #3b3228);
+  }
+  @media (max-width: 900px) {
+    .compare {
+      grid-template-columns: 1fr;
+    }
+    .compare img {
+      height: 36vh;
+    }
+  }
+</style>

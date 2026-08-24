@@ -1,0 +1,266 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro"
+import { pickDaily } from "../lib/daily"
+import { fetchLatestPost } from "../lib/newsletter"
+
+const latest = await fetchLatestPost()
+
+/** Most popular stays fixed until you change it (RSS has no “popular” rank). */
+const popular = {
+  title: "How to Read a Book",
+  link: "https://newsletter.thecultureexplorer.com/p/how-to-read-a-book",
+  description: "Adler’s forgotten art of reading with attention and judgment.",
+  image:
+    "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=1200&q=80",
+}
+
+const dailyPool = [
+  {
+    src: "https://images.pexels.com/photos/2676582/pexels-photo-2676582.jpeg?auto=compress&cs=tinysrgb&w=2000",
+    alt: "Weathered marble figure in raking light",
+  },
+  {
+    src: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg/1280px-Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg",
+    alt: "Botticelli, The Birth of Venus",
+  },
+  {
+    src: "https://images.pexels.com/photos/753639/pexels-photo-753639.jpeg?auto=compress&cs=tinysrgb&w=2000",
+    alt: "St. Peter’s Basilica at dusk across the Tiber",
+  },
+]
+
+const today = pickDaily(dailyPool, 1)[0] || dailyPool[0]
+---
+<BaseLayout
+  title="Culture Explorer — A field guide to beauty, memory, and civilization"
+  description="Learn to see what civilizations made, then see your own place with the same standard. Art, architecture, journeys, and civilizational memory."
+>
+  <section class="hero">
+    <img src={today.src} alt={today.alt} />
+    <div class="hero-copy">
+      <div class="hero-pill">Attention is cheap. Memory is earned.</div>
+      <h1>A field guide to beauty, memory, and civilization.</h1>
+      <p class="lede">Not another archive. A practice for seeing what civilizations made — then seeing your own street with the same standard.</p>
+      <div class="hero-actions">
+        <a class="btn" href="/see">Begin looking</a>
+        <a class="btn btn-green" href="https://newsletter.thecultureexplorer.com" target="_blank" rel="noopener">Read the newsletter</a>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="section-head">
+        <div class="kicker">The conviction</div>
+        <h2>Culture is not content. It is what a people chose to honor.</h2>
+        <p class="lede">Beauty is not a luxury. Tradition is not nostalgia. Civilizations survive when they remember what made them worth building.</p>
+      </div>
+      <div class="triad">
+        <article>
+          <div class="num">01</div>
+          <h3>Beauty forms judgment</h3>
+          <p>The sustained study of great art trains attention into taste, and taste into a clearer moral imagination.</p>
+        </article>
+        <article>
+          <div class="num">02</div>
+          <h3>Tradition guards memory</h3>
+          <p>What we inherit is not a museum label but a living discipline: gratitude, careful repair, and the duty to pass it on intact.</p>
+        </article>
+        <article>
+          <div class="num">03</div>
+          <h3>Preservation carries civilization</h3>
+          <p>A civilization reveals itself by what it chooses to preserve, revisit, and teach its children to love.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <div class="split">
+    <div class="photo">
+      <img src="https://images.pexels.com/photos/753639/pexels-photo-753639.jpeg?auto=compress&cs=tinysrgb&w=1800" alt="St. Peter’s Basilica at dusk across the Tiber" />
+    </div>
+    <div class="text">
+      <div>
+        <div class="kicker">How to See</div>
+        <h2>Look before you are told.</h2>
+        <p class="lede">Ten minutes with one work will change more than a hundred thumbnails. Taste is trained, not downloaded.</p>
+        <p><a class="btn" href="/see">Enter the school</a></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="split reverse">
+    <div class="text">
+      <div>
+        <div class="kicker">The Atlas</div>
+        <h2>Works as instruments, not posts.</h2>
+        <p class="lede">Paintings, sculptures, rooms, and buildings annotated for what they asked of their makers — and what they form in you.</p>
+        <p><a class="btn" href="/atlas">Open the Atlas</a></p>
+      </div>
+    </div>
+    <div class="photo">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg/1280px-Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg" alt="Botticelli, The Birth of Venus" />
+    </div>
+  </div>
+
+  <section>
+    <div class="wrap">
+      <div class="section-head">
+        <div class="kicker">Begin with these</div>
+        <h2>Masterpieces that still ask something of you.</h2>
+      </div>
+      <div class="grid-3">
+        <a class="card" href="/work-statue">
+          <div class="media"><img src="https://images.pexels.com/photos/2676582/pexels-photo-2676582.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Marble river god" /></div>
+          <div class="body">
+            <div class="meta">Sculpture</div>
+            <h3>A face that still refuses ease</h3>
+            <p>Look at the weathered beard and open mouth before you name the god.</p>
+          </div>
+        </a>
+        <a class="card" href="/work-venus">
+          <div class="media"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg/800px-Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg" alt="Birth of Venus" /></div>
+          <div class="body">
+            <div class="meta">Painting</div>
+            <h3>Botticelli’s Birth of Venus</h3>
+            <p>Beauty arriving on a shell — and a city deciding that arrival still mattered.</p>
+          </div>
+        </a>
+        <a class="card" href="/cities/rome">
+          <div class="media"><img src="https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1200&q=80" alt="Colosseum at dusk" /></div>
+          <div class="body">
+            <div class="meta">Journey</div>
+            <h3>Begin with Rome</h3>
+            <p>From the Republic to Borromini: a walk through what the city chose to keep.</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="chapter">
+    <img src="https://images.unsplash.com/photo-1514890547357-a9ee288728e0?auto=format&fit=crop&w=2000&q=80" alt="Venice at dusk" />
+    <div class="chapter-copy">
+      <div class="kicker" style="color:#e6c48a">Journeys</div>
+      <h2>Routes shaped by memory, not motion.</h2>
+      <p class="lede">Rome, Venice, Kyoto — walks for those who want craft, liturgy, and slow attention.</p>
+      <p><a class="btn" href="/journeys">See the journeys</a></p>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="section-head">
+        <div class="kicker">Cities that still teach</div>
+        <h2>Walk them. Then walk your own.</h2>
+      </div>
+      <div class="grid-4">
+        <a class="card" href="/cities/rome">
+          <div class="media"><img src="https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=900&q=80" alt="Rome" /></div>
+          <div class="body"><div class="meta">Rome</div><h3>The eternal method</h3></div>
+        </a>
+        <a class="card" href="/cities/venice">
+          <div class="media"><img src="https://images.pexels.com/photos/208701/pexels-photo-208701.jpeg?auto=compress&cs=tinysrgb&w=900" alt="Venice" /></div>
+          <div class="body"><div class="meta">Venice</div><h3>Beauty as a republic</h3></div>
+        </a>
+        <a class="card" href="/cities/kyoto">
+          <div class="media"><img src="https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=900&q=80" alt="Kyoto" /></div>
+          <div class="body"><div class="meta">Kyoto</div><h3>Repair as an art</h3></div>
+        </a>
+        <a class="card" href="/journeys">
+          <div class="media"><img src="https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=900&q=80" alt="Taj Mahal" /></div>
+          <div class="body"><div class="meta">Agra</div><h3>Grief given measure</h3></div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="band">
+    <div class="wrap">
+      <p class="quote-block">
+        The fastest way to destroy a civilization isn’t war. It’s teaching people to accept ugliness.
+        <cite>Culture Explorer</cite>
+      </p>
+    </div>
+  </section>
+
+  <div class="split">
+    <div class="photo">
+      <img src="https://images.unsplash.com/photo-1449824913935-59a10b8d2000?auto=format&fit=crop&w=1600&q=80" alt="A city street at dusk" />
+    </div>
+    <div class="text">
+      <div>
+        <div class="kicker">Your Street</div>
+        <h2>Home as a second Rome.</h2>
+        <p class="lede">The same eye you bring to Bernini, brought to a courthouse, a parish church, a forgotten facade.</p>
+        <p><a class="btn" href="/street">Start on your block</a></p>
+      </div>
+    </div>
+  </div>
+
+  <section>
+    <div class="wrap">
+      <div class="section-head">
+        <div class="kicker">Weekly</div>
+        <h2>Read slowly. Keep what lasts.</h2>
+        <p class="lede">Essays and looking notes from the Culture Explorer newsletter.</p>
+      </div>
+
+      <div class="grid-3">
+        <a class="card" href={latest.link} target="_blank" rel="noopener">
+          <div class="media wide">
+            <img src={latest.image} alt={latest.title} />
+          </div>
+          <div class="body">
+            <div class="meta">Latest</div>
+            <h3>{latest.title}</h3>
+            <p>{latest.description}</p>
+          </div>
+        </a>
+
+        <a class="card" href={popular.link} target="_blank" rel="noopener">
+          <div class="media wide">
+            <img src={popular.image} alt={popular.title} />
+          </div>
+          <div class="body">
+            <div class="meta">Most popular</div>
+            <h3>{popular.title}</h3>
+            <p>{popular.description}</p>
+          </div>
+        </a>
+
+        <div>
+          <div class="kicker" style="margin-bottom:0.75rem;">Subscribe</div>
+          <iframe
+            src="https://newsletter.thecultureexplorer.com/embed"
+            width="100%"
+            height="320"
+            style="border:1px solid var(--rule,#d0c0a6);background:#fff;max-width:480px;width:100%;"
+            frameborder="0"
+            scrolling="no"
+            title="Subscribe to Culture Explorer"
+          ></iframe>
+        </div>
+      </div>
+
+      <p style="margin-top:2rem">
+        <a class="btn" href="/essays">All essays</a>
+        <a class="btn" href="https://newsletter.thecultureexplorer.com" target="_blank" rel="noopener" style="margin-left:0.5rem;">Newsletter archive</a>
+      </p>
+    </div>
+  </section>
+
+  <section class="band">
+    <div class="wrap band-split">
+      <div>
+        <div class="kicker">The Inheritance</div>
+        <h2>A ledger of what you have actually seen.</h2>
+        <p class="lede">You do not complete a collection by scrolling. You earn a work by looking, writing, and remembering.</p>
+        <p><a class="btn" href="/inheritance">Open your ledger</a></p>
+      </div>
+      <div>
+        <img src="https://images.unsplash.com/photo-1554907984-15263bfd63bd?auto=format&fit=crop&w=1200&q=80" alt="Museum salon" style="width:100%;height:340px;object-fit:cover" />
+      </div>
+    </div>
+  </section>
+</BaseLayout>

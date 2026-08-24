@@ -1,0 +1,802 @@
+[
+  {
+    "id": "rome-pantheon",
+    "cityId": "rome",
+    "name": "Pantheon",
+    "kind": "church",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Pantheon_(Rome)_-_Right_side_and_front.jpg?width=1280",
+    "shortGuide": "The Pantheon turns engineering into a complete view of the world. Enter through the compressed portico and passage, then watch the rotunda expand around you: its 43.3-metre height and diameter allow a perfect sphere to fit inside. Follow the five rings of coffers toward the oculus and watch sunlight move across the dome. Roman power appears here as geometry, material control, and a direct encounter with the sky."
+  },
+  {
+    "id": "rome-colosseum",
+    "cityId": "rome",
+    "name": "Colosseum",
+    "kind": "ruins",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Colosseo_2020.jpg?width=1280",
+    "shortGuide": "The Colosseum organized tens of thousands of people with the efficiency of a modern stadium while sorting them by status. Trace an entrance through arches, corridors, stairs, and seating, then look into the hypogeum where workers, animals, lifts, and scenery supported the arena above. Missing clamps, stripped marble, and exposed masonry record centuries of reuse. The building shows how spectacle can join engineering, social hierarchy, state generosity, and violence."
+  },
+  {
+    "id": "rome-forum",
+    "cityId": "rome",
+    "name": "Roman Forum",
+    "kind": "ruins",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Foro_Romano_Musei_Capitolini_Roma.jpg?width=1280",
+    "shortGuide": "The Roman Forum grew through centuries of argument, worship, commerce, ceremony, and political competition. Begin from a raised viewpoint and identify the Via Sacra, Senate House, basilicas, temples, and speaking platforms before walking among them. Their close placement shows that Roman public life joined law, religion, memory, and reputation within the same ground. The ruins train you to reconstruct civic order from foundations, fragments, reused buildings, and changing levels."
+  },
+  {
+    "id": "rome-ara-pacis",
+    "cityId": "rome",
+    "name": "Ara Pacis Augustae",
+    "kind": "other",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Ara_Pacis_(SW).jpg?width=1280",
+    "shortGuide": "Augustus presented peace as the fruit of victory, dynasty, fertility, and restored religious order. Walk around the Ara Pacis and compare the lower field of abundant acanthus with the solemn procession of priests, officials, women, and children above. The inclusion of the imperial family turns succession into a public image of stability. This altar asks you to judge how political power converts the end of civil war into a moral claim about the future."
+  },
+  {
+    "id": "rome-borghese",
+    "cityId": "rome",
+    "name": "Galleria Borghese",
+    "kind": "museum",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Villa_Borghese_Pinciana_(building).jpg?width=1280",
+    "shortGuide": "Cardinal Scipione Borghese built a villa where collecting, architecture, and social ambition reinforced one another. Give Bernini’s sculptures space: circle David, follow Apollo and Daphne from pursuit to transformation, and notice how each group controls your approach. Then compare Caravaggio’s compressed darkness with the bright rooms around it. The gallery reveals how private appetite, family power, and close judgment helped create the museum culture later inherited by the public."
+  },
+  {
+    "id": "rome-st-peters",
+    "cityId": "rome",
+    "name": "St. Peter's Basilica",
+    "kind": "church",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Vatican_City_(St._Peter_Square).jpg?width=1280",
+    "shortGuide": "St. Peter’s uses scale to make Catholic universality physically present. Cross the nave slowly and notice how colossal pilasters, measured bays, floor inscriptions, and distant sculpture disguise the building’s true size. Bernini’s bronze baldachin marks the tomb of Saint Peter while Michelangelo’s dome gathers the vast interior above it. The basilica formed pilgrimage, papal ceremony, and sacred authority through a sequence that moves the body toward a claimed point of origin."
+  },
+  {
+    "id": "rome-st-peters-square",
+    "cityId": "rome",
+    "name": "St. Peter's Square",
+    "kind": "square",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/St_Peter's_Square%2C_Vatican_City_-_April_2007.jpg?width=1280",
+    "shortGuide": "Bernini designed St. Peter’s Square to receive crowds, frame ritual, and make papal Rome legible at a vast scale. Stand on one of the marked focal discs and watch four rows of columns collapse into a single line, then move away and see the colonnade open again. The ellipse turns geometry into controlled movement and collective belonging. It teaches how a public square can welcome, direct, gather, and stage thousands of people at once."
+  },
+  {
+    "id": "rome-santa-maria-vittoria",
+    "cityId": "rome",
+    "name": "Santa Maria della Vittoria",
+    "kind": "church",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Cornaro_chapel_in_Santa_Maria_della_Vittoria_in_Rome_HDR.jpg?width=1280",
+    "shortGuide": "Santa Maria della Vittoria contains one of Baroque Rome’s most complete arguments about religious experience. In the Cornaro Chapel, compare Teresa’s collapsing body with the angel’s controlled gesture, then find the concealed window that activates the gilded rays. Members of the Cornaro family watch from carved theater boxes, placing you among the witnesses. Bernini makes mystical testimony persuasive through marble, colored stone, architecture, daylight, and the viewer’s own position."
+  },
+  {
+    "id": "rome-san-carlo",
+    "cityId": "rome",
+    "name": "San Carlo alle Quattro Fontane",
+    "kind": "church",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/San_Carlo_alle_Quattro_Fontane_-_Front.jpg?width=1280",
+    "shortGuide": "Borromini answered a cramped corner site with an interior that seems to breathe. Follow the alternating concave and convex walls into the oval dome, where crosses, octagons, and hexagons diminish toward the lantern. The small cloister repeats the search for movement within strict limits. San Carlo shows how mathematical discipline can produce surprise, and how architectural invention often begins with scarce space, limited money, and exact attention."
+  },
+  {
+    "id": "rome-trevi",
+    "cityId": "rome",
+    "name": "Trevi Fountain",
+    "kind": "other",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Trevi_Fountain_-_Roma.jpg?width=1280",
+    "shortGuide": "The Trevi Fountain turns the end point of an ancient aqueduct into a public drama about water arriving in Rome. Step back far enough to see how Nicola Salvi joined palace façade, rocky landscape, sculpture, and basin into one composition. Oceanus advances through a controlled disorder of horses, attendants, and falling water. Papal infrastructure becomes civic theater here, showing how a necessary resource can acquire ceremony, memory, and shared ritual."
+  },
+  {
+    "id": "rome-capitoline",
+    "cityId": "rome",
+    "name": "Capitoline Museums",
+    "kind": "museum",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/0_Cordonata_-_Dioscuri_-_Palazzo_Senatorio.JPG?width=1280",
+    "shortGuide": "The Capitoline Museums began with Pope Sixtus IV’s donation of ancient bronzes to the Roman people in 1471, giving public ownership a monumental setting. Study Michelangelo’s trapezoidal piazza before entering, then compare the equestrian Marcus Aurelius outside with the protected original indoors. Ancient fragments, papal collecting, and municipal government meet on the hill. The complex helped form the idea that a city should preserve art as evidence of its public identity."
+  },
+  {
+    "id": "rome-vatican-museums",
+    "cityId": "rome",
+    "name": "Vatican Museums",
+    "kind": "museum",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Vatican_Museums_(16).jpg?width=1280",
+    "shortGuide": "The Vatican Museums reveal how papal collecting turned antiquity, Christian history, geography, and artistic ambition into an ordered route. Choose one thread and follow it through sculpture courts, Raphael’s rooms, the Gallery of Maps, and the Sistine Chapel. Watch how each doorway prepares the authority of the next room. The collection teaches that museums shape meaning through sequence: placement and approach determine how civilizations appear to inherit one another."
+  },
+  {
+    "id": "rome-castel-sant-angelo",
+    "cityId": "rome",
+    "name": "Castel Sant'Angelo",
+    "kind": "palace",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Castel_Sant'Angelo_at_Night.jpg?width=1280",
+    "shortGuide": "Castel Sant’Angelo began as Hadrian’s dynastic mausoleum and survived by becoming a fortress, papal refuge, residence, prison, and museum. Follow the ancient spiral ramp toward the cylindrical burial core, then notice medieval walls, Renaissance rooms, artillery positions, and the protected passage toward the Vatican. Each regime kept the structure by giving it another purpose. The building makes preservation visible as adaptation driven by fear, power, and practical need."
+  },
+  {
+    "id": "rome-trastevere",
+    "cityId": "rome",
+    "name": "Santa Maria in Trastevere",
+    "kind": "church",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/01_Santa_Maria_in_Trastevere_Facade.jpg?width=1280",
+    "shortGuide": "Santa Maria in Trastevere gathers many centuries into a church that still serves its neighborhood. Compare the reused ancient columns, whose shafts and capitals vary, with the ordered medieval nave they now support. In the apse, gold mosaics connect the Virgin, Christ, saints, and patrons to the liturgy below. The basilica shows how Rome built continuity by reusing older materials and placing inherited beauty inside daily worship."
+  },
+  {
+    "id": "rome-piazza-navona",
+    "cityId": "rome",
+    "name": "Piazza Navona",
+    "kind": "square",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Piazza_Navona_(Rome)_at_night.jpg?width=1280",
+    "shortGuide": "Piazza Navona preserves the long oval of Domitian’s ancient stadium beneath Baroque palaces, churches, fountains, and street life. Walk the full curve and watch the façades follow seating that disappeared centuries ago. At the center, Bernini’s Fountain of the Four Rivers turns papal authority into a global claim, while Sant’Agnese shapes the opposite edge. The square proves that a city can remember a vanished building through movement and property lines."
+  },
+  {
+    "id": "rome-caravaggio-san-luigi",
+    "cityId": "rome",
+    "name": "San Luigi dei Francesi",
+    "kind": "church",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Caravaggio%2C_Michelangelo_Merisi_da_-_The_Calling_of_Saint_Matthew_-_1599-1600_(hi_res).jpg?width=1280",
+    "shortGuide": "The Contarelli Chapel in San Luigi dei Francesi lets you read Caravaggio’s Saint Matthew cycle as one sustained argument. Move from the Calling to the Inspiration and Martyrdom, comparing how darkness, gesture, contemporary clothing, and abrupt light carry the story. In the Calling, the beam crosses ordinary men before Matthew fully understands his selection. Caravaggio makes grace visible as an interruption entering a familiar room and demanding a decision."
+  },
+  {
+    "id": "rome-pantheon-square",
+    "cityId": "rome",
+    "name": "Piazza della Rotonda",
+    "kind": "square",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Piazza_della_Rotonda%2C_Roma.JPG?width=1280",
+    "shortGuide": "Piazza della Rotonda teaches you how Rome places extraordinary monuments inside ordinary urban life. Approach from a side street and watch the Pantheon’s portico appear before the dome, whose exterior remains largely concealed. The fountain, obelisk, cafés, paving, voices, and constant movement give the ancient building a changing foreground. The square shows how daily use keeps a monument socially present after its original religion and empire have passed."
+  },
+  {
+    "id": "rome-villa-medici",
+    "cityId": "rome",
+    "name": "Villa Medici",
+    "kind": "palace",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Villa_Medici_Roma_01.jpg?width=1280",
+    "shortGuide": "Villa Medici presents two faces: a restrained street front toward Rome and a garden façade crowded with ancient reliefs. Cardinal Ferdinando de’ Medici used architecture, sculpture, planting, and the Pincian view to display cultivated power. Since 1803, the French Academy has made the villa a place of artistic study and residence. Look at how collecting and landscape frame the city, then consider how patronage shapes artists by controlling time, company, and setting."
+  },
+  {
+    "id": "rome-appian-way",
+    "cityId": "rome",
+    "name": "Appian Way (section)",
+    "kind": "other",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Paesaggio_dell'Appia_antica.jpg?width=1280",
+    "shortGuide": "The Appian Way, begun in 312 BCE, made Roman power measurable through a straight, engineered route toward southern Italy. Walk on surviving basalt blocks and study the road’s crown, drainage, wheel wear, and long sightlines. Tombs gather along the edges because Roman burial took place beyond the city boundary, turning movement into a corridor of family memory. The road joined military reach, commerce, status, and the landscape of death."
+  },
+  {
+    "id": "rome-janiculum",
+    "cityId": "rome",
+    "name": "Janiculum viewpoint",
+    "kind": "viewpoint",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Janiculum.jpg?width=1280",
+    "shortGuide": "The Janiculum gives a view of Rome shaped by domes, bell towers, monuments, trees, and distant hills rather than by one dominant center. Identify St. Peter’s, the Pantheon, and the Vittoriano, then notice how streets and ancient valleys disappear from above. Memorials to the defenders of the Roman Republic of 1849 make the hill a political site as well as a viewpoint. The panorama turns historical layers into a single, contested image of the city."
+  },
+  {
+    "id": "florence-duomo",
+    "cityId": "florence",
+    "name": "Cathedral of Santa Maria del Fiore",
+    "kind": "church",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Cattedrale_di_Santa_Maria_del_Fiore_%E2%80%93_Il_Duomo_di_Firenze.jpg?width=1280",
+    "shortGuide": "Santa Maria del Fiore records a city attempting a task larger than any living builder initially knew how to complete. Study the contrast between the patterned marble walls and Brunelleschi’s vast eight-sided dome, built from 1420 to 1436 with two shells, ribs, and herringbone brickwork. The climb exposes the narrow space between the shells and the labor concealed by the skyline. Florence made technical intelligence a form of civic identity here."
+  },
+  {
+    "id": "florence-baptistery",
+    "cityId": "florence",
+    "name": "Baptistery of San Giovanni",
+    "kind": "church",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Baptistery%2C_Florence.jpg?width=1280",
+    "shortGuide": "The Baptistery joins Florence’s religious beginnings to its Renaissance ambitions. Walk around the octagon and compare the disciplined marble geometry with the three bronze doorways, then enter and look upward to the mosaic Last Judgment. The famous 1401 competition for the north doors tested how artists could compress sacrifice, anatomy, landscape, and emotion into bronze. The building shows how public commissions can direct a city’s talent for generations."
+  },
+  {
+    "id": "florence-uffizi",
+    "cityId": "florence",
+    "name": "Uffizi Gallery",
+    "kind": "museum",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Uffizi_Gallery%2C_Florence-2.jpg?width=1280",
+    "shortGuide": "Vasari designed the Uffizi in the 1560s as government offices, and Medici collecting gradually turned administration into a history of taste. Follow a limited sequence of rooms and watch bodies gain weight, space gain depth, and sacred stories acquire human emotion before reaching Botticelli and Leonardo. The long corridors frame Florence and the Arno as part of the collection. The museum teaches that chronology becomes meaningful when you compare visible changes rather than chase famous names."
+  },
+  {
+    "id": "florence-accademia",
+    "cityId": "florence",
+    "name": "Galleria dell'Accademia",
+    "kind": "museum",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/David_at_the_Galleria_dell'Accademia_(61351).jpg?width=1280",
+    "shortGuide": "The Accademia’s Tribune turns the approach to Michelangelo’s David into part of the sculpture. Walk past the unfinished Prisoners and study bodies that appear to emerge unevenly from blocked marble, then face the polished, self-contained David under controlled light. The sequence makes carving visible as a struggle between idea, stone, and decision. It also asks how a museum changes a civic statue once seen outdoors into an isolated masterpiece."
+  },
+  {
+    "id": "florence-palazzo-vecchio",
+    "cityId": "florence",
+    "name": "Palazzo Vecchio",
+    "kind": "palace",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Piazza_della_signoria%2C_palazzo_vecchio%2C_veduta_01.jpg?width=1280",
+    "shortGuide": "Palazzo Vecchio carries the tension between Florence’s republican government and Medici rule. Begin with the fortress-like exterior and high tower, then enter rooms enlarged, painted, and reorganized for ducal ceremony. In the Salone dei Cinquecento, scale turns council space into a declaration of centralized power. The palace shows how a new regime can occupy inherited civic architecture, preserve its authority, and rewrite the story told inside."
+  },
+  {
+    "id": "florence-ponte-vecchio",
+    "cityId": "florence",
+    "name": "Ponte Vecchio",
+    "kind": "bridge",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Ponte_Vecchio_from_Ponte_alle_Grazie.jpg?width=1280",
+    "shortGuide": "Ponte Vecchio works as bridge, market street, property line, and protected passage. Look from the riverbank at the shops projecting unevenly over the water, then cross beneath the Vasari Corridor built in 1565 for the Medici court. Goldsmiths later replaced butchers, changing the bridge’s smell, status, and public image. Its layered structure reveals how commerce and political privilege can occupy the same narrow piece of infrastructure."
+  },
+  {
+    "id": "florence-san-lorenzo",
+    "cityId": "florence",
+    "name": "San Lorenzo",
+    "kind": "church",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Firenze_-_Florence_-_Basilica_di_San_Lorenzo_-_Designed_by_Brunelleschi_-_View_Up_on_Central_Nave_%26_Cupola.jpg?width=1280",
+    "shortGuide": "San Lorenzo makes architectural order feel immediate through pale walls, gray pietra serena, repeated columns, round arches, and measured bays. Stand where the nave’s lines converge and notice how every part appears related to a clear module. The rough exterior gives little warning of the calm within. Brunelleschi and the Medici turned a parish church into a model of Renaissance space, where proportion disciplined both vision and family memory."
+  },
+  {
+    "id": "florence-medici-chapel",
+    "cityId": "florence",
+    "name": "Medici Chapels",
+    "kind": "church",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Firenze_-_Sagrestia_Nuova_0196-DSC01525.jpg?width=1280",
+    "shortGuide": "The Medici Chapels turn burial into a contest between dynastic permanence and human time. In Michelangelo’s New Sacristy, compare the alert seated dukes with Dawn, Dusk, Day, and Night twisting across their tombs; the figures resist the architecture meant to contain them. The Chapel of the Princes answers with polished stones, coats of arms, and overwhelming expense. Together they show grief, political status, and bodily mortality pulling in different directions."
+  },
+  {
+    "id": "florence-santa-croce",
+    "cityId": "florence",
+    "name": "Santa Croce",
+    "kind": "church",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Basilica_di_Santa_Croce_(12437).jpg?width=1280",
+    "shortGuide": "Santa Croce grew from a Franciscan church into a national map of achievement. Move between Giotto’s frescoed chapels and the monuments to Michelangelo, Galileo, Machiavelli, and other celebrated Italians, then find the flood markers left by the Arno. Burial, commemoration, worship, and disaster share the same building. The church asks who receives public memory, which virtues a nation chooses to honor, and how material culture survives repeated loss."
+  },
+  {
+    "id": "florence-santa-maria-novella",
+    "cityId": "florence",
+    "name": "Santa Maria Novella",
+    "kind": "church",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Florence%2C_Santa_Maria_Novella%2C_facade.jpg?width=1280",
+    "shortGuide": "Alberti’s façade brings an existing medieval church into Renaissance order through squares, circles, pilasters, and the great scrolling forms that reconcile the lower aisles with the taller nave. Inside, stand before Masaccio’s Trinity and let its painted architecture extend the wall into measurable depth. Both works use geometry to make belief intellectually credible. The church trains the eye to see proportion as a way of joining inherited structure with new thought."
+  },
+  {
+    "id": "florence-pitti",
+    "cityId": "florence",
+    "name": "Palazzo Pitti",
+    "kind": "palace",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Palazzo_Pitti_nel_tardo_pomeriggio.jpg?width=1280",
+    "shortGuide": "Palazzo Pitti announces power through weight, repetition, and controlled distance. Read the enormous rusticated blocks across the façade, then watch Ammannati’s courtyard step upward toward the Boboli Gardens. After the Medici acquired the palace in 1549, successive rulers enlarged it and filled its rooms with collections and ceremony. The complex shows how princely life reorganized architecture, art, garden, household service, and the city around the needs of a court."
+  },
+  {
+    "id": "florence-boboli",
+    "cityId": "florence",
+    "name": "Boboli Gardens",
+    "kind": "garden",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Jard%C3%ADn_de_B%C3%B3boli%2C_Florencia%2C_Italia%2C_2022-09-19%2C_DD_26.jpg?width=1280",
+    "shortGuide": "Boboli treats landscape as architecture made from slopes, axes, hedges, grottos, sculpture, water, and framed views. Begin behind the palace and follow how paths reveal the amphitheater, cypress-lined routes, basins, and changing prospects over Florence. The garden organized court ceremony while displaying Medici command of land and ancient imagery. It helped shape the European formal garden as a place where movement itself becomes a planned experience of rank and discovery."
+  },
+  {
+    "id": "florence-bargello",
+    "cityId": "florence",
+    "name": "Bargello Museum",
+    "kind": "museum",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Florence%2C_Bargello%2C_Sala_di_Donatello_(detail).jpg?width=1280",
+    "shortGuide": "The Bargello places Renaissance sculpture inside Florence’s former seat of judicial power and later prison. Pause in the heraldic courtyard before comparing Donatello’s bronze David, the competing Sacrifice of Isaac panels by Ghiberti and Brunelleschi, and sculpture designed for civic or sacred settings. Walk around each object because balance, gesture, and narrative change by angle. The museum reveals how public competition and demanding patrons turned sculpture into a field of intellectual invention."
+  },
+  {
+    "id": "florence-orsanmichele",
+    "cityId": "florence",
+    "name": "Orsanmichele",
+    "kind": "church",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Torre_di_arnolfo%2C_veduta_orsanmichele_33-edit.jpg?width=1280",
+    "shortGuide": "Orsanmichele joins grain storage, worship, commerce, and guild identity within one compact building. Walk the exterior niches and compare how Donatello, Ghiberti, Verrocchio, and others gave patron saints distinct bodies, materials, and civic personalities; many originals are protected inside the museum. The former grain-market windows and upper storage floors remain legible. Florence’s trades made religious duty and professional reputation visible on a shared public street."
+  },
+  {
+    "id": "florence-signoria",
+    "cityId": "florence",
+    "name": "Piazza della Signoria",
+    "kind": "square",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Piazza_Signoria_-_Firenze.jpg?width=1280",
+    "shortGuide": "Piazza della Signoria uses sculpture to conduct political memory in public. Read the space from Palazzo Vecchio to the Loggia dei Lanzi, then compare the replica of David, Cellini’s Perseus, the Medici lions, and the Fountain of Neptune as claims made by different regimes. A pavement marker recalls Savonarola’s execution amid ordinary foot traffic. The square shows how civic art can threaten, celebrate, instruct, and revise collective memory over centuries."
+  },
+  {
+    "id": "florence-san-miniato",
+    "cityId": "florence",
+    "name": "San Miniato al Monte",
+    "kind": "church",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/San_Miniato_al_Monte%2C_exterior%2C_Florencia%2C_Italia%2C_2019_01_cropped.jpg?width=1280",
+    "shortGuide": "San Miniato al Monte rewards the climb with an encounter between strict geometry and a broad view of Florence. Study the green-and-white marble façade, then enter for the patterned pavement, open timber roof, raised choir, crypt, and golden apse mosaic. The church orders sacred space through repetition and clear levels. Looking back toward the city places Brunelleschi’s dome within an older religious landscape and changes how Florence’s skyline reads."
+  },
+  {
+    "id": "florence-brancacci",
+    "cityId": "florence",
+    "name": "Brancacci Chapel",
+    "kind": "church",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Fresco-Expulsion_from_the_Garden_of_Eden_(Masaccio)-Brancacci_Chapel.jpg?width=1280",
+    "shortGuide": "The Brancacci Chapel lets you watch Renaissance painting discover bodily weight, consistent light, shared space, and painful emotion. Compare Masolino’s graceful figures with Masaccio’s Expulsion and Tribute Money, where feet press the ground and shame alters the whole body. Filippino Lippi later completed the unfinished cycle. Generations of artists studied here because sacred history had become physically credible enough to serve as a school for seeing human action."
+  },
+  {
+    "id": "florence-opera-duomo",
+    "cityId": "florence",
+    "name": "Museo dell'Opera del Duomo",
+    "kind": "museum",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Dommuseum_Florenz_(Museo_dell'Opera_del_Duomo).jpg?width=1280",
+    "shortGuide": "The Museo dell’Opera del Duomo restores context to works removed from the Cathedral, Baptistery, and Bell Tower for protection. Begin with the reconstruction of Arnolfo’s lost cathedral façade, then compare Ghiberti’s original Gates of Paradise, Donatello’s prophets, and Michelangelo’s late Bandini Pietà. Damage, replacement, intended height, and changing taste become part of every object’s story. The museum teaches that conservation preserves evidence while inevitably changing the encounter."
+  },
+  {
+    "id": "florence-library-laurenziana",
+    "cityId": "florence",
+    "name": "Laurentian Library",
+    "kind": "other",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Medicibib.jpg?width=1280",
+    "shortGuide": "Michelangelo made the Laurentian Library’s vestibule feel compressed, unstable, and strangely alive. Columns sink into walls, brackets carry uncertain loads, and the central staircase spreads into the room like a controlled obstacle. The long reading room then answers with light, repetition, and calm. This sequence prepares the body for study by moving it from pressure into order, showing that architecture can shape the mental state in which knowledge is received."
+  },
+  {
+    "id": "florence-oltrarno",
+    "cityId": "florence",
+    "name": "Oltrarno streets",
+    "kind": "other",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Via_romana_(dal_giardino_corsi_annalena).JPG?width=1280",
+    "shortGuide": "Oltrarno reveals Florence through the smaller structures that sustain a historic city: workshop doors, stone thresholds, street tabernacles, courtyards, modest façades, and squares used throughout the day. Walk between Santo Spirito, Via Maggio, and the artisan streets while watching where making, selling, worship, and domestic life still overlap. The district trains you to value cultural inheritance as skilled work and repeated use, while also noticing the pressure tourism places on both."
+  },
+  {
+    "id": "venice-san-marco",
+    "cityId": "venice",
+    "name": "St. Mark's Basilica",
+    "kind": "church",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Venezia_Basilica_di_San_Marco_Fassade_2.jpg?width=1280",
+    "shortGuide": "St. Mark’s Basilica made Venice’s relationship with Byzantium, maritime trade, sacred relics, and civic power visible in one interior. Let your eyes adjust, then watch angled gold tesserae redirect light across domes and vaults as you move. Reused columns, uneven pavement, imported objects, and later mosaic replacements record centuries of acquisition and repair. Venice fashioned itself here as a Christian republic whose authority came through Saint Mark and the eastern Mediterranean."
+  },
+  {
+    "id": "venice-piazza-san-marco",
+    "cityId": "venice",
+    "name": "Piazza San Marco",
+    "kind": "square",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Panorama_Piazza_San_Marco_and_Venice_on_Easter_2013.jpg?width=1280",
+    "shortGuide": "Piazza San Marco was the ceremonial center of a republic that approached power from the water. Walk from the narrow streets into the broad piazza, then continue through the Piazzetta toward the lagoon; the basilica, campanile, Procuratie, palace, and waterfront reveal themselves in stages. Different façades create order through repeated arches and strong edges. The space formed civic identity by joining worship, government, commerce, procession, and foreign arrival within one public sequence."
+  },
+  {
+    "id": "venice-doges",
+    "cityId": "venice",
+    "name": "Doge's Palace",
+    "kind": "palace",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/(Venice)_Doge's_Palace_and_campanile_of_St._Mark's_Basilica_facing_the_sea.jpg?width=1280",
+    "shortGuide": "The Doge’s Palace gives Venetian government an appearance of openness and patterned order. Outside, heavy upper walls seem to rest on airy arcades; inside, ceremonial stairs and painted chambers lead toward council rooms, courts, armories, and prisons. Follow the route from public splendor to the enclosed Bridge of Sighs and cells. The palace reveals a republic that presented collective rule through beauty while sustaining it through records, surveillance, judgment, and controlled access."
+  },
+  {
+    "id": "venice-academia",
+    "cityId": "venice",
+    "name": "Gallerie dell'Accademia",
+    "kind": "museum",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/(Venice)_Gallerie_dell'Accademia_-_Interior_(sala_3).jpg?width=1280",
+    "shortGuide": "The Accademia lets you see Venetian painting develop through color, reflected light, oil technique, theatrical scale, and a city shaped by water. Compare Bellini’s calm sacred spaces with Giorgione’s ambiguity, Titian’s bodily color, Tintoretto’s speed, and Veronese’s public splendor. Watch how fabric, skin, sky, and architecture share color across a canvas. The collection trains judgment through comparison and shows how a local environment can become a distinct visual language."
+  },
+  {
+    "id": "venice-frari",
+    "cityId": "venice",
+    "name": "Santa Maria Gloriosa dei Frari",
+    "kind": "church",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Facade_of_Santa_Maria_Gloriosa_dei_Frari_(Venice).jpg?width=1280",
+    "shortGuide": "The Frari’s broad brick Gothic interior gives paintings and tombs the distance required to command a congregation. Stand far down the nave and watch Titian’s Assumption bind apostles, Mary, and God through rising bodies and repeated red, then move closer as details emerge. Monumental tombs compete with Franciscan architecture and liturgical space. The church shows how art changes when scale, placement, worship, burial, and civic reputation remain physically connected."
+  },
+  {
+    "id": "venice-scuola-rocco",
+    "cityId": "venice",
+    "name": "Scuola Grande di San Rocco",
+    "kind": "museum",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Crucifixion%2C_Scuola_Grande_di_San_Rocco.jpg?width=1280",
+    "shortGuide": "Tintoretto spent more than twenty years covering the Scuola Grande di San Rocco with over sixty biblical canvases. Move room by room and notice how abrupt light, foreshortened bodies, crowded edges, and unusual viewpoints respond to ceilings, doorways, and dim walls. The confraternity encountered suffering, mercy, sacrifice, and deliverance while conducting charity and worship. The cycle makes narrative cumulative: every room changes the moral pressure of the next."
+  },
+  {
+    "id": "venice-rialto",
+    "cityId": "venice",
+    "name": "Rialto Bridge",
+    "kind": "bridge",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Rialto_2025_4.jpg?width=1280",
+    "shortGuide": "The Rialto Bridge turns a difficult crossing into a piece of commercial urbanism. Study Antonio da Ponte’s single stone arch, the two shop-lined ramps, and the central openings that restore a view of the Grand Canal. The bridge concentrates movement, rent, exchange, and spectacle above a waterway once crowded with market traffic. It shows how infrastructure can carry economic life directly within its structure and become the public image of that economy."
+  },
+  {
+    "id": "venice-salute",
+    "cityId": "venice",
+    "name": "Santa Maria della Salute",
+    "kind": "church",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Santa_Maria_della_Salute_from_Hotel_Monaco.jpg?width=1280",
+    "shortGuide": "Venice vowed Santa Maria della Salute during the plague of 1630, turning survival and gratitude into a permanent entrance marker for the Grand Canal. Look at how Longhena’s octagonal body, great dome, scroll-like buttresses, steps, and waterside position create a building readable from many moving boats. The annual feast still connects the church to collective memory. Architecture gives a recurring public form to fear, loss, thanksgiving, and civic recovery."
+  },
+  {
+    "id": "venice-ca-doro",
+    "cityId": "venice",
+    "name": "Ca' d'Oro",
+    "kind": "palace",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Ca'_d'Oro_facciata.jpg?width=1280",
+    "shortGuide": "Ca’ d’Oro turns a canal façade into a calibrated display of wealth, openness, and changing light. Compare the deep loggias and delicate tracery on one side with the more solid wall and windows on the other. The palace once carried richer color and gilding, while collector Giorgio Franchetti later restored it and gave it to the state. Its surface teaches how Venetian Gothic architecture balanced display, domestic use, water access, loss, and reinvention."
+  },
+  {
+    "id": "venice-torcello",
+    "cityId": "venice",
+    "name": "Torcello (Santa Maria Assunta)",
+    "kind": "church",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Basilica_di_Santa_Maria_Assunta%2C_Torcello_(cropped).jpg?width=1280",
+    "shortGuide": "Torcello preserves the scale of an early lagoon settlement whose political and economic importance later shifted toward Venice. Inside Santa Maria Assunta, turn back toward the vast Last Judgment mosaic, then face the solitary Virgin in the apse above the altar. The open island around the cathedral intensifies the contrast between former population and present quiet. The site makes decline, migration, faith, and cultural survival visible within the same landscape."
+  },
+  {
+    "id": "venice-san-giorgio",
+    "cityId": "venice",
+    "name": "San Giorgio Maggiore",
+    "kind": "church",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/San_Giorgio_Maggiore_from_the_top_of_St_Mark's_Campanile.jpg?width=1280",
+    "shortGuide": "Palladio designed San Giorgio Maggiore to complete Venice’s ceremonial waterfront from across the basin. Study how two overlapping temple fronts reconcile the tall nave with lower aisles, then enter the bright white interior and compare its measured order with Tintoretto’s dramatic paintings. From the campanile, the Doge’s Palace and Piazza San Marco become part of a larger lagoon composition. The church teaches that architecture can shape a city from across open water."
+  },
+  {
+    "id": "venice-peggy",
+    "cityId": "venice",
+    "name": "Peggy Guggenheim Collection",
+    "kind": "museum",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/PI5DAE~2_-_CopyPeggy_Guggenheim_Museum.JPG?width=1280",
+    "shortGuide": "The Peggy Guggenheim Collection places twentieth-century art inside the unfinished Palazzo Venier dei Leoni, whose low Grand Canal frontage changes the scale of the museum experience. Move between domestic rooms, garden sculpture, and water views while comparing Cubism, Surrealism, and abstraction. Guggenheim lived with much of this art before opening it to the public. The museum shows how one collector’s relationships and judgments can help establish a modern canon."
+  },
+  {
+    "id": "venice-murano",
+    "cityId": "venice",
+    "name": "Murano glass workshops",
+    "kind": "other",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Murano_glassblowing_demo.jpg?width=1280",
+    "shortGuide": "Murano glass becomes understandable when you watch the sequence of labor rather than the finished object alone. Follow molten glass from furnace to blowpipe, shaping tools, repeated reheating, and the coordinated hands of a workshop team. Venice concentrated glass furnaces on Murano in the late thirteenth century, allowing the state to manage fire risk and valuable knowledge. The craft reveals tradition as trained judgment carried in breath, timing, temperature, and touch."
+  },
+  {
+    "id": "venice-jewish-ghetto",
+    "cityId": "venice",
+    "name": "Ghetto and museums",
+    "kind": "other",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Ghetto_(Venice)_Panorama.jpg?width=1280",
+    "shortGuide": "The Venetian Ghetto, established in 1516, made religious difference spatial through gates, restricted residence, and intense density. Look up at unusually tall housing and seek the synagogues placed discreetly within upper floors, where several Jewish communities maintained distinct rites under shared constraints. Memorials connect the campo to deportation during the Holocaust. The district asks you to read ordinary façades as evidence of exclusion, adaptation, worship, family life, and endurance."
+  },
+  {
+    "id": "venice-santi-giovanni",
+    "cityId": "venice",
+    "name": "Santi Giovanni e Paolo",
+    "kind": "church",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Exterior_of_Santi_Giovanni_e_Paolo_(Venice).jpg?width=1280",
+    "shortGuide": "Santi Giovanni e Paolo became a burial church for doges and a public record of how Venice wished to remember its rulers. Walk the vast Dominican interior and compare tombs from different centuries as architectural frames, portraits, virtues, military claims, and family monuments grow more elaborate. Nearby, the Scuola Grande di San Marco extends civic charity into the campo. The complex turns death into a continuing debate about service, status, and republican memory."
+  },
+  {
+    "id": "venice-miracoli",
+    "cityId": "venice",
+    "name": "Santa Maria dei Miracoli",
+    "kind": "church",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Santa_Maria_dei_Miracoli_(facciata).jpg?width=1280",
+    "shortGuide": "Pietro Lombardo designed Santa Maria dei Miracoli as a complete architectural setting for a revered image of the Virgin. Study the fitted panels of colored marble, round pediment, shallow pilasters, and delicate carving, then enter the barrel-vaulted interior and raised sanctuary. Pattern gives the small church dignity beyond its size. The building shows how careful proportion and costly surface can make intimate devotion feel publicly important."
+  },
+  {
+    "id": "venice-arsenal",
+    "cityId": "venice",
+    "name": "Arsenal walls",
+    "kind": "other",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Campo_de_l'Arsenal.jpg?width=1280",
+    "shortGuide": "The Arsenal gave Venice a protected system for building, equipping, storing, and repairing the fleets on which the republic depended. Read the fortified walls, water gates, towers, and monumental land entrance as boundaries around labor and technical knowledge. Inside this vast state complex, specialized workers and standardized processes supported naval power at exceptional scale. Even from outside, the Arsenal shows that Venetian beauty rested on disciplined production, secrecy, logistics, and organized human skill."
+  },
+  {
+    "id": "venice-zattere",
+    "cityId": "venice",
+    "name": "Zattere promenade",
+    "kind": "viewpoint",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Canale_Giudecca_e_Zattere_a_Venezia.jpg?width=1280",
+    "shortGuide": "The Zattere exposes Venice as a working edge rather than a closed field of picturesque canals. The broad fondamenta once received timber rafts, and its long line now reveals warehouses, churches, boat traffic, stone embankments, and the Giudecca across open water. Walk slowly and watch distance and sunlight flatten or separate the opposite shore. The promenade trains you to see Venice through infrastructure, labor, weather, and changing relations across the lagoon."
+  },
+  {
+    "id": "venice-burano",
+    "cityId": "venice",
+    "name": "Burano",
+    "kind": "other",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Burano_Venice_17.jpg?width=1280",
+    "shortGuide": "Burano’s painted houses create a strong public image, but close looking reveals repair, fading, shutters, laundry, boats, and narrow thresholds that belong to daily island life. Walk away from the busiest canal and compare repeated house forms with individual choices of color and upkeep. Lace traditions add another history of skilled domestic production. The island shows how a community identity can grow from ordinary buildings maintained through many small acts."
+  },
+  {
+    "id": "venice-lagoon-ferry",
+    "cityId": "venice",
+    "name": "Lagoon ferry route",
+    "kind": "other",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Venice_-_Island_near_Burano.JPG?width=1280",
+    "shortGuide": "A lagoon ferry gives the clearest lesson in Venice’s true urban form. Watch islands separate, bell towers become navigational markers, façades turn toward water, and service boats occupy routes that streets serve elsewhere. The distance between Venice, Giudecca, Murano, Burano, or Torcello reveals a connected archipelago shaped by tides and channels. Public transport becomes an architectural viewpoint, showing that approach and movement determine how the city can be understood."
+  },
+  {
+    "id": "paris-notre-dame",
+    "cityId": "paris",
+    "name": "Notre-Dame Cathedral",
+    "kind": "church",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Notre-Dame_de_Paris%2C_4_October_2017.jpg?width=1280",
+    "shortGuide": "Notre-Dame teaches how a cathedral gathers the work, faith, damage, and judgment of many centuries. Read the west façade in levels from portals to kings, rose window, gallery, and towers, then study how flying buttresses carry the high stone vaults from outside. The 2019 fire and 2024 reopening made material knowledge and public responsibility visible again. Restoration here became a decision about which inherited form France wished to pass forward."
+  },
+  {
+    "id": "paris-louvre",
+    "cityId": "paris",
+    "name": "Louvre Museum",
+    "kind": "museum",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Louvre_Museum_Wikimedia_Commons.jpg?width=1280",
+    "shortGuide": "The Louvre carries a medieval fortress, royal palace, revolutionary public museum, imperial collection, and modern entrance within one institution. Begin with the surviving fortress foundations, then follow a single civilization or artistic problem through selected rooms. Courtyards, state apartments, galleries, and the glass pyramid reveal changing ideas of authority and access. The museum asks you to judge how states collect, classify, display, and sometimes acquire the objects through which world culture is narrated."
+  },
+  {
+    "id": "paris-orsay",
+    "cityId": "paris",
+    "name": "Musée d'Orsay",
+    "kind": "museum",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Musee_d_Orsay_main_hall_Paris_2023_dllu.jpg?width=1280",
+    "shortGuide": "The Musée d’Orsay occupies a railway station built for the 1900 Universal Exhibition and reopened as a museum in 1986. Stand in the great nave and read the platforms, iron span, stone envelope, and monumental clock before entering galleries devoted to 1848–1914. Industrial movement now organizes paintings, sculpture, design, and photography. The conversion shows how a city can preserve an obsolete building by giving its scale and structure a new public purpose."
+  },
+  {
+    "id": "paris-sainte-chapelle",
+    "cityId": "paris",
+    "name": "Sainte-Chapelle",
+    "kind": "church",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Sainte_Chapelle_-_Upper_level_1.jpg?width=1280",
+    "shortGuide": "Louis IX built Sainte-Chapelle in the 1240s to house relics of Christ’s Passion and present French kingship as sacred guardianship. Move from the low, intensely painted lower chapel into the upper chapel, where fifteen tall windows reduce the walls to narrow supports around 1,113 biblical scenes. Colored light surrounds the former royal platform. The building turns precious relic, visual storytelling, structural daring, and political theology into one controlled ascent."
+  },
+  {
+    "id": "paris-cluny",
+    "cityId": "paris",
+    "name": "Musée de Cluny",
+    "kind": "museum",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Paris_2012-aout-0006-2-Hotel-de-Cluny.jpg?width=1280",
+    "shortGuide": "The Musée de Cluny places medieval art between the remains of Roman baths and a late medieval townhouse, allowing the building itself to challenge a simple period label. Follow changes in stone, room height, light, and domestic scale before reaching The Lady and the Unicorn. Tapestry, stained glass, sculpture, metalwork, and architecture reveal a culture organized through touch, ritual, craft, and symbol. The museum makes the Middle Ages materially present rather than merely distant."
+  },
+  {
+    "id": "paris-pantheon",
+    "cityId": "paris",
+    "name": "Panthéon",
+    "kind": "other",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Pantheon_of_Paris_007.JPG?width=1280",
+    "shortGuide": "The Panthéon began as Soufflot’s church of Sainte-Geneviève and became a national mausoleum during the Revolution, moving between religious and civic purposes before settling into its republican role. Study the classical portico, light masonry, dome, Foucault pendulum, and descent into the crypt. The honored dead turn architecture into an official list of national values. Every addition raises the same question: who is allowed to stand for France?"
+  },
+  {
+    "id": "paris-invalides",
+    "cityId": "paris",
+    "name": "Les Invalides",
+    "kind": "other",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/H%C3%B4tel_des_Invalides_from_the_Eiffel_Tower%2C_23_July_2009.jpg?width=1280",
+    "shortGuide": "Louis XIV founded Les Invalides as a hospital and residence for veterans, joining royal duty to military display. Follow the long axial approach from the cour d’honneur toward Hardouin-Mansart’s gilded dome, then descend around Napoleon’s immense red quartzite sarcophagus. Museums, church, hospital history, and imperial tomb occupy the same complex. Its plan reveals how a state can combine care for soldiers, celebration of victory, mourning, and the construction of national glory."
+  },
+  {
+    "id": "paris-sacre-coeur",
+    "cityId": "paris",
+    "name": "Sacré-Cœur",
+    "kind": "church",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Le_sacre_coeur.jpg?width=1280",
+    "shortGuide": "Sacré-Cœur rose after the Franco-Prussian War and the Paris Commune, carrying ideas of national penance, Catholic renewal, and political division into the skyline. Study the pale travertine, Romano-Byzantine domes, broad stairs, and vast apse mosaic before looking over Paris from Montmartre. The basilica’s commanding position made devotion inseparable from public power and contested memory. Its beauty and popularity sit within a history that still deserves careful judgment."
+  },
+  {
+    "id": "paris-centre-pompidou",
+    "cityId": "paris",
+    "name": "Centre Pompidou",
+    "kind": "museum",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Centre_Pompidou%2C_Paris._-_Flickr_-_Lejeune_Gr%C3%A9gory.jpg?width=1280",
+    "shortGuide": "Piano and Rogers placed structure, ducts, circulation, and mechanical systems on the exterior so the interior floors could remain flexible. Read the colored services and escalator tube as an exposed account of how the building works, then watch the sloping piazza turn visitors into part of the architecture. The main building closed in September 2025 for renovation through 2030, making maintenance central to its story. Even during closure, the exterior tests whether a cultural institution can remain open in meaning and public space."
+  },
+  {
+    "id": "paris-rodin",
+    "cityId": "paris",
+    "name": "Musée Rodin",
+    "kind": "museum",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Le_mus%C3%A9e_Rodin.jpg?width=1280",
+    "shortGuide": "The Musée Rodin restores sculpture to domestic rooms, changing daylight, trees, paths, and multiple viewing angles. Compare casts, studies, fragments, and repeated figures connected to The Gates of Hell before treating The Thinker or The Kiss as isolated icons. Rodin’s process depended on modeling, enlargement, recombination, casting, and assistants. The house and garden teach that a sculpture’s meaning can develop through versions and placement, with the viewer’s movement completing the work."
+  },
+  {
+    "id": "paris-orangerie",
+    "cityId": "paris",
+    "name": "Musée de l'Orangerie",
+    "kind": "museum",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Mus%C3%A9e_de_L'Orangerie_Water_Lilies_Pano_1.jpg?width=1280",
+    "shortGuide": "The Orangerie’s two oval rooms turn Monet’s Water Lilies into an environment that exceeds a single glance. Stand close enough to see separate strokes, then step back as lilies, sky, water, and reflections form and dissolve across the curved walls. The eight compositions grew from Monet’s postwar gift to France and were installed in 1927. The rooms propose sustained attention as a public form of remembrance and make your changing perception part of the artwork."
+  },
+  {
+    "id": "paris-conciegerie",
+    "cityId": "paris",
+    "name": "Conciergerie",
+    "kind": "ruins",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Paris_Conciergerie_265.jpg?width=1280",
+    "shortGuide": "The Conciergerie preserves the transformation of a medieval royal palace into a court and prison associated with the Revolutionary Terror. Begin in the vast rib-vaulted Hall of the Men-at-Arms, built for the royal household, then move toward the reconstructed prison history and memory of Marie Antoinette. The contrast shows how institutions inherit impressive architecture and redirect its authority. The building asks how later trauma changes the way earlier grandeur is remembered."
+  },
+  {
+    "id": "paris-place-vosges",
+    "cityId": "paris",
+    "name": "Place des Vosges",
+    "kind": "square",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Place_des_Vosges_vue_a%C3%A9rienne.png?width=1280",
+    "shortGuide": "Place des Vosges, developed under Henri IV in the early seventeenth century, gave Paris one of its clearest models of a planned residential square. Walk beneath the continuous arcades and compare the repeated brick-and-stone façades, steep roofs, and taller royal and queen’s pavilions. Uniform public fronts conceal varied private interiors. The square shows how regulation can create civic coherence while leaving room for individual lives behind a shared architectural order."
+  },
+  {
+    "id": "paris-luxembourg",
+    "cityId": "paris",
+    "name": "Jardin du Luxembourg",
+    "kind": "garden",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/LuxembourgMontparnasse.JPG?width=1280",
+    "shortGuide": "The Luxembourg Garden joins a royal landscape begun for Marie de’ Medici with the daily habits of a modern public park. Compare the central basin, formal terraces, tree-lined axes, statues, orchards, and looser edges, then notice how movable chairs let visitors compose their own use of the plan. The Senate remains within the palace while ordinary life fills the grounds. Public culture here depends on design sturdy enough to welcome choice and repetition."
+  },
+  {
+    "id": "paris-arc-triomphe",
+    "cityId": "paris",
+    "name": "Arc de Triomphe",
+    "kind": "other",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Arc_de_Triomphe%2C_Paris_21_October_2010.jpg?width=1280",
+    "shortGuide": "Napoleon commissioned the Arc de Triomphe in 1806, and later France turned the imperial monument into a place of national mourning. Read the great sculptural groups, engraved military names, and radiating avenues before standing at the Tomb of the Unknown Soldier and its flame. From above, the monument organizes modern Paris while recalling older campaigns. The Arc holds victory, sacrifice, state ceremony, and anonymous death within the same public structure."
+  },
+  {
+    "id": "paris-opera-garnier",
+    "cityId": "paris",
+    "name": "Palais Garnier",
+    "kind": "palace",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Paris_Opera_full_frontal_architecture%2C_May_2009.jpg?width=1280",
+    "shortGuide": "Charles Garnier designed the opera house so the audience could perform social status before the stage performance began. Follow the entrance sequence into the grand staircase, where branching flights, balconies, mirrors, marble, gilding, and electric movement make seeing other people central to the room. The auditorium continues the controlled display through boxes and sightlines. The building reveals nineteenth-century Paris using culture, wealth, fashion, and public visibility to define metropolitan life."
+  },
+  {
+    "id": "paris-pere-lachaise",
+    "cityId": "paris",
+    "name": "Père Lachaise Cemetery",
+    "kind": "other",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Pere_Lachaise_Chemin_Errazu.jpg?width=1280",
+    "shortGuide": "Père Lachaise, opened in 1804, made burial into a landscaped city of paths, slopes, chapels, family tombs, monuments, and public reputations. Compare celebrated graves with anonymous or neglected ones, and notice how changing styles turn private grief into architectural history. Visitors often navigate by famous names, creating a cultural curriculum among the dead. The cemetery asks whose memory remains active, who maintains it, and how fame changes the afterlife of a grave."
+  },
+  {
+    "id": "paris-ile-saint-louis",
+    "cityId": "paris",
+    "name": "Île Saint-Louis",
+    "kind": "other",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Le_quai_de_B%C3%A9thune_dans_l'%C3%AEle_St_Louis%2C_le_pont_de_la_Tournelle_et_la_Seine.jpg?width=1280",
+    "shortGuide": "Île Saint-Louis was systematically developed in the seventeenth century, giving central Paris a district shaped by straight streets, quays, hôtels particuliers, and controlled river fronts. Walk the main spine, then turn toward quieter side streets and compare formal entrances with the service and garden spaces hidden behind them. The island turns aristocratic domestic life into urban order. Its measured scale shows how planning can create intimacy at the center of a capital."
+  },
+  {
+    "id": "paris-montmartre",
+    "cityId": "paris",
+    "name": "Montmartre streets",
+    "kind": "other",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Rue_Norvins%2C_Montmartre%2C_18%C3%A8me_arrondissement%2C_Paris%2C_PH38572.jpg?width=1280",
+    "shortGuide": "Montmartre’s steep streets preserve traces of a village annexed to Paris in 1860, later transformed by quarrying, entertainment, religious construction, artists, and tourism. Leave the busiest squares to study stairs, retaining walls, surviving houses, vineyard slopes, and changing views. Cheap rents once attracted artists whose presence became a marketable legend. The district trains you to separate physical history from the cultural myth that now shapes how visitors consume it."
+  },
+  {
+    "id": "paris-seine-walk",
+    "cityId": "paris",
+    "name": "Seine left-bank walk",
+    "kind": "viewpoint",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Bouquinistes_de_Paris_le_14_ao%C3%BBt_2016_-_1.jpg?width=1280",
+    "shortGuide": "A left-bank walk along the Seine reveals Paris as a sequence built for the river. Follow bridge alignments, quay levels, flood markers, bookstalls, retaining walls, and the changing fronts of Notre-Dame, the Louvre, the Institut de France, and Musée d’Orsay. Each bend reorganizes monuments that seem fixed on a map. The walk shows how trade, defense, ceremony, books, leisure, and public movement gathered along one shared piece of geography."
+  },
+  {
+    "id": "kyoto-kinkakuji",
+    "cityId": "kyoto",
+    "name": "Kinkaku-ji (Golden Pavilion)",
+    "kind": "other",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Golden_Pavilion_Kinkaku-ji_water_mirror_2024.jpg?width=1280",
+    "shortGuide": "Kinkaku began as part of Ashikaga Yoshimitsu’s Kitayama villa, where political authority, Buddhist imagery, garden design, and exchange with Ming China met. Notice the plain lower story beneath the gilded upper levels, then walk the pond as the reflection breaks and reforms among islands and pines. The present pavilion was reconstructed in 1955 after the 1950 fire. Its continuity rests on design, ritual, care, and memory carried through renewed material."
+  },
+  {
+    "id": "kyoto-ginkakuji",
+    "cityId": "kyoto",
+    "name": "Ginkaku-ji (Silver Pavilion)",
+    "kind": "other",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Ginkakuji_Kyoto03-r.jpg?width=1280",
+    "shortGuide": "Ashikaga Yoshimasa began Ginkaku as a retirement villa in 1482, and the site became a Zen temple after his death. The pavilion never received the silver suggested by its later name, so attend to dark wood, weathering, the raked Sea of Silver Sand, moss, water, and the hillside path. The complex helped form Higashiyama culture, where architecture, ink painting, flowers, incense, gardens, and tea shaped disciplined taste beyond political success."
+  },
+  {
+    "id": "kyoto-fushimi",
+    "cityId": "kyoto",
+    "name": "Fushimi Inari Taisha",
+    "kind": "other",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Torii_path_with_lantern_at_Fushimi_Inari_Taisha_Shrine%2C_Kyoto%2C_Japan.jpg?width=1280",
+    "shortGuide": "Fushimi Inari turns pilgrimage into a path through thousands of donated torii gates rising toward Mount Inari. Look at the inscriptions from the reverse side, where names and dates reveal individuals and businesses participating in a continuing economy of gratitude and hope. Fox figures serve as messengers of Inari, a deity associated with rice and prosperity. Repetition here records countless separate acts of devotion while directing every visitor through a shared physical discipline."
+  },
+  {
+    "id": "kyoto-kIyomizu",
+    "cityId": "kyoto",
+    "name": "Kiyomizu-dera",
+    "kind": "other",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Kiyomizu.jpg?width=1280",
+    "shortGuide": "Kiyomizu-dera developed around devotion to Kannon and the pure water of Mount Otowa. The present main hall, rebuilt in 1633, projects a vast timber stage over the hillside on a dense framework of posts and joints. Move from the gate through worship spaces to the terrace, then descend toward the waterfall and look back at the structure carrying the crowd above. Pilgrimage, engineering, landscape, and the city view become parts of one ascent."
+  },
+  {
+    "id": "kyoto-ryoanji",
+    "cityId": "kyoto",
+    "name": "Ryōan-ji rock garden",
+    "kind": "garden",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Kare-sansui_zen_garden%2C_Ry%C5%8Dan-ji%2C_Kyoto_20190416_1.jpg?width=1280",
+    "shortGuide": "Ryōan-ji concentrates attention through fifteen stones arranged in five uneven groups across raked gravel. Map their heights, gaps, moss bases, and shifting overlaps from the veranda, then include the stained earthen wall in the composition. The designer, precise date, and intended meaning remain uncertain, so the visible relationships carry unusual weight. Daily raking also reveals stillness as maintained order, created repeatedly through human labor and patient looking."
+  },
+  {
+    "id": "kyoto-nijo",
+    "cityId": "kyoto",
+    "name": "Nijō Castle",
+    "kind": "palace",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/NinomaruPalace.jpg?width=1280",
+    "shortGuide": "Tokugawa Ieyasu began Nijō Castle in 1603 as a Kyoto residence capable of displaying shogunal authority near the imperial court. In the Ninomaru Palace, listen as floorboards chirp through moving fittings and watch Kano-school tigers, pines, birds, and gold expand the presence of rooms arranged by rank. The route controls who approaches whom and how closely. In 1867, the castle also became a setting for the return of political authority to the emperor."
+  },
+  {
+    "id": "kyoto-nishi-honganji",
+    "cityId": "kyoto",
+    "name": "Nishi Hongan-ji",
+    "kind": "other",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/170216_Nishi_Honganji_Kyoto_Japan03s4.jpg?width=1280",
+    "shortGuide": "Nishi Hongan-ji gives the communal scale of Jōdo Shinshū Buddhism a clear architectural form. Cross the broad gravel court and compare the immense Founder’s Hall with the Amida Hall, then look closely at carved gates, painted rooms, timber structure, and long tatami interiors designed for large congregations. Monumental craftsmanship serves collective hearing and recitation here. The complex shows how a religious community builds continuity through shared space, teaching, ritual, and institutional memory."
+  },
+  {
+    "id": "kyoto-gion",
+    "cityId": "kyoto",
+    "name": "Gion district",
+    "kind": "other",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/150124_Gion_Kyoto_Japan01s3.jpg?width=1280",
+    "shortGuide": "Gion is a working district whose wooden machiya, lattice fronts, narrow plots, teahouses, shrines, and evening routines support highly trained performing traditions. Study the rhythm of façades and entrances while remembering that many spaces remain private homes and businesses. Geiko and maiko culture depends on years of instruction, patronage, music, dance, dress, and etiquette. Respectful distance allows the district to remain a living cultural setting instead of becoming a public stage for visitors."
+  },
+  {
+    "id": "kyoto-philosopher",
+    "cityId": "kyoto",
+    "name": "Philosopher's Path",
+    "kind": "other",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Japan_Kyoto_philosophers_walk_DSC00297.jpg?width=1280",
+    "shortGuide": "The Philosopher’s Path follows a canal associated with the Lake Biwa Canal system and later with the daily walks of philosopher Nishida Kitarō. Let the moving water set your pace while stone edges, bridges, houses, trees, and temple approaches enter and leave view. Seasonal change alters the same modest structure throughout the year. The path shows how ordinary infrastructure can become a setting for reflection through repeated walking, attention, and cultural memory."
+  },
+  {
+    "id": "kyoto-arashiyama",
+    "cityId": "kyoto",
+    "name": "Arashiyama bamboo grove",
+    "kind": "other",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Bamboo_Grove%2C_Arashiyama%2C_Kyoto%2C_Japan.jpg?width=1280",
+    "shortGuide": "The Arashiyama bamboo grove creates its effect through density, vertical repetition, filtered light, and the sound of tall culms moving against one another. Look also at fences, cut stems, paths, and maintained edges that reveal a managed material landscape. Bamboo has long served architecture, tools, baskets, gardens, and ritual. The grove becomes more meaningful when you see cultivation and craft behind the image, since human care sustains the visual order visitors encounter."
+  },
+  {
+    "id": "kyoto-tenryuji",
+    "cityId": "kyoto",
+    "name": "Tenryū-ji",
+    "kind": "garden",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Tenryuji_Kyoto.jpg?width=1280",
+    "shortGuide": "Ashikaga Takauji founded Tenryū-ji in 1339 in memory of Emperor Go-Daigo, giving political reconciliation a Zen setting. At the Sōgenchi garden, follow rocks, pond edges, islands, reflections, and planted slopes toward the distant Arashiyama hills drawn into the composition. Temple buildings suffered repeated fires while the garden retained its central form. Borrowed scenery makes the boundary between designed ground and larger landscape difficult to locate, extending contemplation beyond ownership."
+  },
+  {
+    "id": "kyoto-imperial",
+    "cityId": "kyoto",
+    "name": "Kyoto Imperial Palace Park",
+    "kind": "garden",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/%E7%BE%8E%E3%81%97%E3%81%8D%E4%BA%AC%E9%83%BD%E5%BE%A1%E6%89%80.jpg?width=1280",
+    "shortGuide": "Kyoto Imperial Palace Park preserves the scale and boundaries of the imperial enclosure after the court moved to Tokyo in 1869. Walk the broad gravel roads and long walls, comparing formal gates with the open public grounds, trees, and former aristocratic sites around them. The present palace buildings largely date from the 1855 reconstruction. The park turns a former center of restricted authority into shared urban space while keeping hierarchy legible in walls, distances, and approaches."
+  },
+  {
+    "id": "kyoto-sanju",
+    "cityId": "kyoto",
+    "name": "Sanjūsangen-dō",
+    "kind": "other",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Sanjusangendo_Thousand-armed_Kannon.JPG?width=1280",
+    "shortGuide": "Sanjūsangen-dō draws its power from one seated and one thousand standing images of Kannon arranged across a hall rebuilt in 1266. Compare faces, halos, robes, and forty extended arms across the rows; repetition makes small differences increasingly visible. The assembly combines 12th-century survivors, 13th-century replacements, and Tankei’s central image after a destructive fire. Immense number becomes focused contemplation, and compassion takes physical form through many generations of disciplined hands."
+  },
+  {
+    "id": "kyoto-toji",
+    "cityId": "kyoto",
+    "name": "Tō-ji pagoda",
+    "kind": "other",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Toji_2015.JPG?width=1280",
+    "shortGuide": "Tō-ji once guarded the southern entrance to the imperial capital and later became a major center of Shingon Buddhism under Kūkai. The present five-story pagoda, completed in 1644, remains Japan’s tallest wooden pagoda and a powerful marker against Kyoto’s low skyline. Inside the lecture hall, twenty-one sculptures organize esoteric Buddhist teaching as a three-dimensional mandala. Architecture here orders the city outside and a sacred cosmos within."
+  },
+  {
+    "id": "kyoto-daitokuji",
+    "cityId": "kyoto",
+    "name": "Daitoku-ji complex",
+    "kind": "garden",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/090228_Daitoku-ji_Kyoto_Japan03s5.jpg?width=1280",
+    "shortGuide": "Daitoku-ji is a Rinzai Zen complex formed by gates, paths, halls, walls, and subtemples with distinct gardens and histories. Move slowly through the accessible precincts and notice how thresholds reduce the field of view before a courtyard or dry garden opens. The complex became closely connected with tea culture and figures such as Sen no Rikyū. Its strongest lesson lies in sequence: restraint, material choice, and controlled access prepare attention before any single garden is seen."
+  },
+  {
+    "id": "kyoto-heian",
+    "cityId": "kyoto",
+    "name": "Heian Shrine",
+    "kind": "other",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Heian-jing%C5%AB_daigokuden.jpg?width=1280",
+    "shortGuide": "Heian Shrine was built in 1895 for the 1,100th anniversary of Kyoto’s founding, using a reduced reconstruction of buildings from the ancient imperial palace to strengthen civic identity after the capital moved to Tokyo. Compare the expansive court, bright vermilion structures, distant gate, and surrounding garden created by Ogawa Jihei. The shrine shows a modern city selecting and rebuilding an older image of itself in order to carry historical status into a changed nation."
+  },
+  {
+    "id": "kyoto-nishiki",
+    "cityId": "kyoto",
+    "name": "Nishiki Market",
+    "kind": "other",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Nishiki_Ichiba_by_matsuyuki.jpg?width=1280",
+    "shortGuide": "Nishiki Market makes Kyoto’s food culture visible through a narrow sequence of fish, pickles, tea, sweets, knives, vegetables, and prepared dishes. Look for seasonal changes, preservation methods, specialist tools, family names, and the small workspaces behind each counter. The market links cuisine to regional supply, craft knowledge, religious calendars, and household habit. Its survival depends on ordinary commerce continuing alongside visitor interest, so attentive movement and respectful buying matter."
+  },
+  {
+    "id": "kyoto-kyomizu-pottery",
+    "cityId": "kyoto",
+    "name": "Kiyomizu pottery streets",
+    "kind": "other",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Kiyomizudera_Slope_of_around_No%2C1.JPG?width=1280",
+    "shortGuide": "The streets climbing toward Kiyomizu-dera connect pilgrimage with Kyoto’s long history of ceramic production and sale. Compare hand-thrown irregularities, molded forms, painted decoration, glaze pooling, kiln effects, and repeated commercial wares before choosing what deserves attention. Kiyomizu ware describes a broad Kyoto tradition rather than one fixed style. These streets show how sacred journeys supported craft economies and how informed looking helps skilled work survive mass tourism."
+  },
+  {
+    "id": "kyoto-katsura",
+    "cityId": "kyoto",
+    "name": "Katsura Imperial Villa (grounds knowledge)",
+    "kind": "garden",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Katsura_Rikyu_(3264799678).jpg?width=1280",
+    "shortGuide": "Katsura Imperial Villa, developed by Princes Toshihito and Toshitada in the early seventeenth century, coordinates villa rooms, tea houses, pond, islands, stepping stones, and framed views through a controlled walking route. Watch how each turn changes distance, reveals a structure, or withholds part of the garden. Later modern architects helped make Katsura an international model of Japanese design. Its reputation teaches how movement, scholarship, and selective photography can shape an architectural canon."
+  },
+  {
+    "id": "kyoto-station-view",
+    "cityId": "kyoto",
+    "name": "Kyoto Tower / station area view",
+    "kind": "viewpoint",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Kyoto-STA_Central.jpg?width=1280",
+    "shortGuide": "Kyoto Station and Kyoto Tower reveal the ancient capital as a living modern city rather than a preserved temple district. Move through the station’s enormous atrium, exposed stairs, bridges, and shifting views, then look outward toward the gridded streets, temple roofs, tower markers, and surrounding mountains. The contrast explains how transport, commerce, tourism, and historic form occupy the same basin. A mature view of Kyoto includes the infrastructure that keeps inherited places accessible and inhabited."
+  }
+]

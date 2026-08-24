@@ -1,0 +1,42 @@
+[
+  {
+    "id": "rome",
+    "name": "Rome",
+    "country": "Italy",
+    "tagline": "Begin with the Eternal City.",
+    "intro": "Routes shaped by memory, craft, liturgy, and slow attention—from the Republic to Borromini.",
+    "heroImage": "https://images.pexels.com/photos/753639/pexels-photo-753639.jpeg?auto=compress&cs=tinysrgb&w=1800"
+  },
+  {
+    "id": "florence",
+    "name": "Florence",
+    "country": "Italy",
+    "tagline": "Where beauty was made a civic project.",
+    "intro": "Patronage, perspective, and the belief that a city could teach judgment through what it hung on its walls.",
+    "heroImage": "https://images.pexels.com/photos/2422461/pexels-photo-2422461.jpeg?auto=compress&cs=tinysrgb&w=1800"
+  },
+  {
+    "id": "venice",
+    "name": "Venice",
+    "country": "Italy",
+    "tagline": "A republic that chose water, risk, and ornament.",
+    "intro": "Beauty masking ambition; every canal a reminder that splendor can be a political choice.",
+    "heroImage": "https://images.unsplash.com/photo-1514890547357-a9ee288728e0?auto=format&fit=crop&w=1800&q=80"
+  },
+  {
+    "id": "paris",
+    "name": "Paris",
+    "country": "France",
+    "tagline": "Stone, light, and the long argument with modernity.",
+    "intro": "From Gothic vertical will to the museum as a national memory palace.",
+    "heroImage": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1800&q=80"
+  },
+  {
+    "id": "kyoto",
+    "name": "Kyoto",
+    "country": "Japan",
+    "tagline": "Repair as a civilizational art.",
+    "intro": "Temples, gardens, and the discipline of renewing form without discarding meaning.",
+    "heroImage": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1800&q=80"
+  }
+]

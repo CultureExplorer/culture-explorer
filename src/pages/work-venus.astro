@@ -1,0 +1,201 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro"
+---
+<BaseLayout
+  title="Look: Birth of Venus — Culture Explorer"
+  description="A looking ritual for Botticelli’s Birth of Venus. Timed attention, prompts, and civilizational reading."
+>
+  <div class="look-layout">
+    <div class="look-image">
+      <img src="/public/images/venus.jpg" alt="Sandro Botticelli, The Birth of Venus" />    </div>
+    <aside class="look-panel">
+      <div class="kicker">Painting · looking ritual</div>
+      <h2>Watch her arrive.</h2>
+      <p class="muted">Five minutes. No caption first.</p>
+      <div class="timer" id="timer">05:00</div>
+      <p style="display:flex;gap:8px;flex-wrap:wrap">
+        <button class="btn btn-solid" type="button" id="startBtn">Start looking</button>
+        <button class="btn" type="button" id="unlockBtn">I have looked</button>
+      </p>
+      <ul class="prompt-list">
+        <li>Where does your eye land first — and where does it go next?</li>
+        <li>What is the wind doing to hair, cloth, and water?</li>
+        <li>Who is being covered, and who is covering?</li>
+        <li>Is this desire, theology, or both?</li>
+      </ul>
+      <label class="kicker" for="notes">Your notes</label>
+      <textarea id="notes" class="notes" placeholder="Describe the painting before the story."></textarea>
+      <div class="locked-note" id="lockedNote">The reading waits on your looking.</div>
+      <div class="unlock" id="unlockPanel">
+        <h3>Beauty as a public event</h3>
+        <p>
+          Botticelli does not hide the strangeness. Venus stands on a shell too slight to bear her. The neck is too long. The stance is almost unstable. And still the picture holds — because Florence, for a moment, believed that pagan myth and Christian grace could occupy the same air without apology.
+        </p>
+        <p>
+          The Hours rush to clothe her. Zephyr and Aura blow her in. Beauty here is not a mood. It is an arrival that obliges a response: cover, honor, attend.
+        </p>
+        <p>
+          What a civilization reveals: it spent gold leaf and years on a nude it also treated as sacred. We spend seconds. The difference is not technology.
+        </p>
+        <p>
+<button
+  class="btn btn-green"
+  type="button"
+  id="earnBtn"
+  data-earn="botticelli-venus"
+  data-title="The Birth of Venus"
+  data-kind="Painting"
+  data-href="/work-venus"
+  data-image="/public/images/venus.jpg"
+>
+  Add to Inheritance
+</button>
+        </p>
+        <p><a href="/compare">Next: a judgment pair →</a></p>
+      </div>
+    </aside>
+  </div>
+</BaseLayout>
+
+<style>
+  .look-layout {
+    display: grid;
+    grid-template-columns: 1.2fr 0.8fr;
+    min-height: calc(100vh - 72px);
+  }
+  .look-image {
+    position: relative;
+    background: #111;
+    min-height: 70vh;
+  }
+  .look-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    inset: 0;
+  }
+  .look-panel {
+    padding: 2.3rem 2rem 3rem;
+    background: var(--paper, #f4ead8);
+    border-left: 1px solid var(--rule, #d0c0a6);
+  }
+  .timer {
+    font-family: var(--serif, "Cormorant Garamond", Georgia, serif);
+    font-size: 3.4rem;
+    letter-spacing: 0.04em;
+    line-height: 1;
+    margin: 0.5rem 0 1rem;
+  }
+  textarea.notes {
+    width: 100%;
+    min-height: 140px;
+    background: var(--cream, #fbf6ec);
+    border: 1px solid var(--rule, #d0c0a6);
+    padding: 0.9rem;
+    resize: vertical;
+    margin: 0.5rem 0 1rem;
+  }
+  .prompt-list {
+    padding-left: 1.1rem;
+    color: var(--ink-2, #3b3228);
+  }
+  .prompt-list li {
+    margin-bottom: 0.4rem;
+  }
+  .unlock {
+    display: none;
+    margin-top: 1.25rem;
+  }
+  .unlock.is-open {
+    display: block;
+  }
+  .locked-note {
+    border: 1px dashed var(--rule, #d0c0a6);
+    padding: 1rem;
+    color: var(--ink-3, #6e6254);
+  }
+  .locked-note.is-hidden {
+    display: none;
+  }
+  @media (max-width: 900px) {
+    .look-layout {
+      grid-template-columns: 1fr;
+    }
+    .look-image {
+      min-height: 50vh;
+      position: relative;
+    }
+    .look-image img {
+      position: relative;
+      height: 50vh;
+    }
+  }
+</style>
+
+<script>
+  const secondsTotal = 300
+  let remaining = secondsTotal
+  let timerId = null
+  const timerEl = document.getElementById("timer")
+  const startBtn = document.getElementById("startBtn")
+  const unlockBtn = document.getElementById("unlockBtn")
+  const unlockPanel = document.getElementById("unlockPanel")
+  const lockedNote = document.getElementById("lockedNote")
+  const earnBtn = document.getElementById("earnBtn")
+
+  function format(s) {
+    const m = Math.floor(s / 60)
+    const r = s % 60
+    return String(m).padStart(2, "0") + ":" + String(r).padStart(2, "0")
+  }
+
+  function tick() {
+    remaining -= 1
+    if (timerEl) timerEl.textContent = format(Math.max(remaining, 0))
+    if (remaining <= 0) {
+      clearInterval(timerId)
+      timerId = null
+      openUnlock()
+    }
+  }
+
+  function openUnlock() {
+    unlockPanel?.classList.add("is-open")
+    lockedNote?.classList.add("is-hidden")
+  }
+
+  startBtn?.addEventListener("click", () => {
+    if (timerId) return
+    remaining = secondsTotal
+    if (timerEl) timerEl.textContent = format(remaining)
+    timerId = setInterval(tick, 1000)
+  })
+
+  unlockBtn?.addEventListener("click", () => {
+    if (timerId) {
+      clearInterval(timerId)
+      timerId = null
+    }
+    openUnlock()
+  })
+
+  earnBtn?.addEventListener("click", () => {
+    try {
+      const key = "ce-inheritance"
+      const raw = localStorage.getItem(key)
+      const list = raw ? JSON.parse(raw) : []
+const item = {
+  id: earnBtn.getAttribute("data-earn"),
+  title: earnBtn.getAttribute("data-title"),
+  kind: earnBtn.getAttribute("data-kind"),
+  href: earnBtn.getAttribute("data-href"),
+  image: earnBtn.getAttribute("data-image"),
+  at: new Date().toISOString(),
+}
+      if (!list.some((x) => x.id === item.id)) list.push(item)
+      localStorage.setItem(key, JSON.stringify(list))
+      earnBtn.textContent = "Added to Inheritance"
+    } catch (e) {}
+  })
+</script>

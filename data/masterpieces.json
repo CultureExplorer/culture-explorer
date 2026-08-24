@@ -1,0 +1,420 @@
+[
+  {
+    "id": "birth-of-venus",
+    "title": "The Birth of Venus",
+    "artist": "Sandro Botticelli",
+    "year": "c. 1485",
+    "kind": "painting",
+    "cityId": "florence",
+    "locationId": "florence-uffizi",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg/1280px-Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg",
+    "cardBlurb": "Venus reaches the shore of Cyprus, classical myth recast for Renaissance Florence.",
+    "timerSeconds": 300,
+    "lookingPrompts": [
+      "Look at Venus's long neck, lowered shoulder, and weightless stance. How does Botticelli sacrifice anatomical accuracy to create a more graceful line?",
+      "Follow Zephyr's breath through the roses, hair, waves, and the Hora's billowing cloak. Where does that movement stop?",
+      "Venus covers herself while standing exposed. How does this borrowed ancient pose turn nudity into an image of modesty, arrival, and controlled desire?"
+    ],
+    "whatItAsked": "Botticelli painted this unusually large tempera on canvas around 1485, combining classical sculpture, humanist poetry, costly pigments, and delicate gilded detail for an elite Florentine setting. Its patron and original destination remain uncertain, so the work belongs within Medici-era culture without requiring a specific commission to be treated as proven.",
+    "whatItFormed": "For Renaissance Florence, pagan antiquity became a serious language for thinking about beauty, desire, and human dignity. Botticelli helped establish an ideal built through selection: he lengthened the body, simplified its volume, and made contour carry more authority than anatomy. The painting still trains us to separate visual grace from physical accuracy and to ask how a culture turns one chosen body into an enduring standard of beauty."
+  },
+  {
+    "id": "david-michelangelo",
+    "title": "David",
+    "artist": "Michelangelo Buonarroti",
+    "year": "1501–1504",
+    "kind": "sculpture",
+    "cityId": "florence",
+    "locationId": "florence-accademia",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/%27David%27_by_Michelangelo_FI_Acca_JBS_003.jpg/1280px-%27David%27_by_Michelangelo_FI_Acca_JBS_003.jpg",
+    "cardBlurb": "A biblical hero became Florence's image of vigilance, courage, and republican liberty.",
+    "timerSeconds": 300,
+    "lookingPrompts": [
+      "Follow the weight from the planted right leg through the tilted hips and relaxed left side. Where does rest end and readiness begin?",
+      "The head and right hand are unusually large. How would those proportions have worked on a cathedral buttress, and what changed when the statue was placed at street level?",
+      "Find the sling and stone, then study the eyes, neck, and brow. Why did Michelangelo make the weapons quiet and the act of deciding so visible?"
+    ],
+    "whatItAsked": "The Opera del Duomo commissioned David for Florence Cathedral, and Michelangelo carved the 5.17-metre figure from a marble block that earlier sculptors had abandoned. When the work was finished, civic leaders placed it outside the Palazzo Vecchio, where a cathedral statue became a political guardian of the republic.",
+    "whatItFormed": "David gave Florence a body through which to imagine republican vigilance. Michelangelo located courage in attention, calculation, and restraint during the seconds before violence. The statue also shows how public placement changes meaning: a figure planned for a cathedral became a citizen guarding the seat of government. It trains us to examine how cities use ideal bodies to define courage, authority, and belonging."
+  },
+  {
+    "id": "school-of-athens",
+    "title": "The School of Athens",
+    "artist": "Raphael",
+    "year": "1509–1511",
+    "kind": "painting",
+    "cityId": "rome",
+    "locationId": "rome-vatican-museums",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Raphael_School_of_Athens.jpg?width=1280",
+    "cardBlurb": "Ancient philosophy assembled inside an ideal architecture for papal Rome.",
+    "timerSeconds": 300,
+    "lookingPrompts": [
+      "Compare Plato's raised finger with Aristotle's level hand. How does each gesture turn an abstract philosophy into a bodily argument?",
+      "The vanishing point falls between the two central thinkers. How does the architecture hold disagreement inside a shared intellectual order?",
+      "Move through the smaller groups: teaching, calculating, arguing, writing, and thinking alone. Then find Raphael looking outward at the right edge. Why include the artist among the philosophers?"
+    ],
+    "whatItAsked": "Pope Julius II commissioned Raphael to fresco the room that served as his private library and office. Raphael joined portrait, gesture, linear perspective, and an architecture inspired by Bramante within a larger program devoted to Truth, Goodness, and Beauty.",
+    "whatItFormed": "The fresco helped papal Rome present classical reason as a partner in the search for truth. Its lasting idea is institutional as much as philosophical: knowledge grows through argument, specialized disciplines, solitary thought, and shared standards. Raphael also raised the artist's status by placing recognizable Renaissance creators among ancient thinkers. The work trains us to see intellectual community as ordered disagreement carried by books, gestures, spaces, and people."
+  },
+  {
+    "id": "sistine-creation",
+    "title": "The Creation of Adam",
+    "artist": "Michelangelo Buonarroti",
+    "year": "c. 1511",
+    "kind": "painting",
+    "cityId": "rome",
+    "locationId": "rome-vatican-museums",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Michelangelo_-_Creation_of_Adam.jpg?width=1280",
+    "cardBlurb": "Life crosses a narrow gap between the Creator's energy and Adam's waiting hand.",
+    "timerSeconds": 180,
+    "lookingPrompts": [
+      "Compare the two index fingers. What do the bend of Adam's wrist and the tension in God's hand tell you before the gap closes?",
+      "God and the surrounding figures surge forward while Adam remains joined to the earth. How does Michelangelo make life feel present yet unfinished?",
+      "Trace the red mantle around God and the figures he carries. How does that enclosure turn creation into a chain of relationships?"
+    ],
+    "whatItAsked": "Michelangelo painted the Sistine ceiling between 1508 and 1512 for Pope Julius II, working in fresco across a vast curved vault and fitting hundreds of figures into a theological program based on Genesis. In this central scene, gesture carries the meaning that a longer narrative would usually explain.",
+    "whatItFormed": "Michelangelo gave Western culture one of its clearest images of human dignity and dependence. Adam already possesses beauty, scale, and bodily potential, yet the relaxed hand shows that life remains received. The tiny interval between the fingers became a visual language for creation, inheritance, teaching, and contact because it holds power and vulnerability in the same space. It trains us to look at human freedom alongside the relationships that make freedom possible."
+  },
+  {
+    "id": "ecstasy-teresa",
+    "title": "Ecstasy of Saint Teresa",
+    "artist": "Gian Lorenzo Bernini",
+    "year": "1647–1652",
+    "kind": "sculpture",
+    "cityId": "rome",
+    "locationId": "rome-santa-maria-vittoria",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Estasi_di_Santa_Teresa.jpg?width=960",
+    "cardBlurb": "Marble, architecture, and hidden daylight turn a mystical vision into public experience.",
+    "timerSeconds": 600,
+    "lookingPrompts": [
+      "Compare Teresa's heavy, collapsing body with the angel's controlled smile and delicate grip on the arrow. Who appears to command the encounter?",
+      "Find the concealed source of daylight above the group, then follow it across gilded rays, white marble, and colored stone. How much of the vision depends on staging?",
+      "The Cornaro men watch from theater boxes carved into the side walls. How does their presence turn you into another witness inside the chapel?"
+    ],
+    "whatItAsked": "Cardinal Federico Cornaro commissioned Bernini to create his burial chapel in Santa Maria della Vittoria. Bernini coordinated white and colored marble, stucco, fresco, gilded bronze rays, donor portraits, and light from a concealed window so that Teresa's written account of transverberation would occupy the entire chapel.",
+    "whatItFormed": "The chapel trained Catholic viewers to approach mystical testimony through sensory evidence. Bernini made architecture, sculpture, daylight, family memory, and the spectator's position work as one persuasive experience. This model shaped Baroque religious art across Europe, where emotion could carry doctrine into the body. It also sharpens modern judgment by showing that sincere spiritual response can arise through carefully planned theatrical means."
+  },
+  {
+    "id": "pantheon-rome",
+    "title": "The Pantheon",
+    "artist": "Architect unknown; rebuilt under Emperor Hadrian",
+    "year": "c. 118–125 CE",
+    "kind": "architecture",
+    "cityId": "rome",
+    "locationId": "rome-pantheon",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Pantheon_%28Rome%29_-_Interior_01.jpg/1280px-Pantheon_%28Rome%29_-_Interior_01.jpg",
+    "cardBlurb": "A perfect sphere seems to fit inside a Roman rotunda open to the sky.",
+    "timerSeconds": 300,
+    "lookingPrompts": [
+      "Stand near the entrance and look back toward the portico. How does the dark, compressed passage prepare your body for the sudden circular interior?",
+      "Count the five rings of coffers and watch them diminish toward the oculus. How do geometry and repetition make the concrete dome appear lighter?",
+      "Let your eye follow the circle of sunlight across the building. How does moving light turn a fixed interior into a measure of hour, weather, and season?"
+    ],
+    "whatItAsked": "Hadrian's builders replaced an earlier structure commissioned by Agrippa and joined a traditional columned portico to a revolutionary concrete rotunda. The 43.3-metre dome used coffering and progressively lighter aggregate toward the oculus, creating the world's largest surviving unreinforced concrete dome.",
+    "whatItFormed": "The Pantheon taught generations of builders that engineering could carry a complete view of the world. Its sphere, oculus, and moving sun joined imperial authority to cosmic order and made that idea bodily: visitors stand inside the geometry. After its conversion into a church, the building became a durable model for domes, centralized sacred spaces, civic halls, and memorials. It trains us to see structure, material, light, and political meaning as parts of one architectural decision."
+  },
+  {
+    "id": "colosseum",
+    "title": "The Colosseum",
+    "artist": "Architect unknown; commissioned by the Flavian emperors",
+    "year": "c. 70–90 CE",
+    "kind": "architecture",
+    "cityId": "rome",
+    "locationId": "rome-colosseum",
+    "image": "https://images.unsplash.com/photo-1515542622106-78bda8ba0e5b?auto=format&fit=crop&w=1200&q=80",
+    "cardBlurb": "The Flavian emperors turned engineering, hierarchy, and mass spectacle into permanent public form.",
+    "timerSeconds": 180,
+    "lookingPrompts": [
+      "The surviving stone looks bare, but the amphitheatre once carried marble, statues, painted surfaces, and metal fittings. Which scars reveal centuries of stripping and reuse?",
+      "Trace an entrance from the outer arches through stairs and corridors to a seat. How did efficient movement also sort spectators by legal and social rank?",
+      "Look down into the exposed hypogeum. What people, animals, machines, and labor had to remain hidden for the spectacle above to appear effortless?"
+    ],
+    "whatItAsked": "Vespasian began the amphitheatre on the site of Nero's former lake, Titus inaugurated it in 80 CE, and Domitian added major features, including the underground service complex. Travertine, concrete, vaults, numbered entrances, and stage machinery allowed tens of thousands of spectators to be moved, seated by rank, and presented with elaborate spectacles.",
+    "whatItFormed": "The Colosseum helped create a public whose members gathered together while occupying sharply divided social positions. Flavian rulers turned access, spectacle, punishment, and imperial generosity into a regular form of government. Its circulation systems still shape modern stadiums, while its exposed underground spaces reveal the labor and violence that public spectacle tends to conceal. The ruin trains us to judge mass entertainment through the full system that produces it: power, audience, engineering, workers, performers, and victims."
+  },
+  {
+    "id": "apollo-daphne",
+    "title": "Apollo and Daphne",
+    "artist": "Gian Lorenzo Bernini",
+    "year": "1622–1625",
+    "kind": "sculpture",
+    "cityId": "rome",
+    "locationId": "rome-borghese",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Apollo_and_Daphne_(Bernini).jpg?width=960",
+    "cardBlurb": "Ovid's pursuit reaches its climax as Daphne's flesh becomes laurel.",
+    "timerSeconds": 300,
+    "lookingPrompts": [
+      "Begin where Apollo's hand reaches Daphne's torso, then follow the change into bark, roots, branches, and leaves. At what point does a body become a tree?",
+      "Move around the group and watch Apollo's apparent capture become surprise and loss. How does your movement supply the sculpture's sequence of time?",
+      "Study Daphne's open mouth and upward turn beside Apollo's still-running body. How does Bernini make technical beauty carry the fear and violence of pursuit?"
+    ],
+    "whatItAsked": "Cardinal Scipione Borghese commissioned the 2.43-metre Carrara marble group for his villa. Bernini selected the culminating instant from Ovid's Metamorphoses and carved it for a carefully controlled approach, making Apollo's apparent triumph turn into astonishment as Daphne escapes through transformation.",
+    "whatItFormed": "Bernini helped form a Baroque viewer who had to move, compare angles, and assemble a story over time. Sculpture became an event unfolding in the spectator's space, with marble asked to suggest skin, breath, bark, and leaves at once. The group also complicates pleasure: its dazzling craft draws us toward Apollo's pursuit while Daphne's transformation exposes the cost of his desire. It trains the eye to hold beauty, coercion, terror, and escape within the same work."
+  },
+  {
+    "id": "monalisa",
+    "title": "Mona Lisa",
+    "artist": "Leonardo da Vinci",
+    "year": "c. 1503–1519",
+    "kind": "painting",
+    "cityId": "paris",
+    "locationId": "paris-louvre",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Mona_Lisa,_by_Leonardo_da_Vinci,_from_C2RMF_retouched.jpg?width=960",
+    "cardBlurb": "Lisa Gherardini meets the viewer through sfumato, restraint, and an unsettled landscape.",
+    "timerSeconds": 180,
+    "lookingPrompts": [
+      "Move your attention between the mouth, cheeks, and eyes. Where does Leonardo use firm edges, and where does he make expression depend on shadow?",
+      "Her hands are sharply organized while the face remains visually elusive. How does that contrast create both social composure and psychological uncertainty?",
+      "Compare the two horizons beside her head and notice the surviving fragments of a balcony. What kind of world has Leonardo placed behind this seated Florentine woman?"
+    ],
+    "whatItAsked": "Leonardo began the portrait of Lisa Gherardini in Florence around 1503 and continued revising it until late in his life. Thin translucent glazes, sfumato, atmospheric perspective, and a stable pyramidal pose required exceptional patience and control over oil paint on poplar panel.",
+    "whatItFormed": "Leonardo helped turn portraiture into a sustained encounter with an interior life. Rank remains present through dress, posture, and composure, while sfumato makes the sitter's emotion depend on the viewer's shifting attention. This uncertainty shaped the modern expectation that a portrait should reveal character while preserving privacy. The painting trains us to notice how quickly we invent a personality from minute changes in shadow, gaze, and expression."
+  },
+  {
+    "id": "winged-victory",
+    "title": "Winged Victory of Samothrace",
+    "artist": "Unknown Hellenistic sculptor",
+    "year": "c. 190 BCE",
+    "kind": "sculpture",
+    "cityId": "paris",
+    "locationId": "paris-louvre",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Nike_of_Samothrace-Louvre-Paris371.jpg?width=960",
+    "cardBlurb": "Victory descends onto a ship's prow as wind presses drapery against her body.",
+    "timerSeconds": 300,
+    "lookingPrompts": [
+      "Compare the thin cloth pressed against the abdomen with the heavier mantle surging behind the legs. How does one material describe several forces of wind?",
+      "Walk toward the figure from below and slightly to the side. How do the projecting chest, braced leg, spread wings, and ship's prow turn victory into an arrival?",
+      "One wing is largely a modern mirror reconstruction, while the head and arms remain missing. Which parts of the monument do you see, and which parts does restoration ask you to imagine?"
+    ],
+    "whatItAsked": "An unknown sculptor created the Parian marble goddess and ship-shaped base for the Sanctuary of the Great Gods on Samothrace, probably as a dedication connected to naval victory. Figure, drapery, prow, wind, and the sanctuary setting were designed as one dramatic arrival.",
+    "whatItFormed": "The monument gave victory a body driven by wind, sea, danger, and arrival. Its combination of figure, ship, and sanctuary helped later cultures imagine triumph through forward movement and elevated display. Modern viewers inherited the work as a fragment, and the missing head and arms shifted attention toward balance, drapery, and force. It trains us to distinguish the ancient object, the modern reconstruction, and the complete figure our minds continue to supply."
+  },
+  {
+    "id": "venus-milo",
+    "title": "Venus de Milo",
+    "artist": "Unknown Hellenistic sculptor",
+    "year": "c. 150–125 BCE",
+    "kind": "sculpture",
+    "cityId": "paris",
+    "locationId": "paris-louvre",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Venus_de_Milo_Louvre_Ma399_n4.jpg?width=960",
+    "cardBlurb": "An ancient Aphrodite balances ideal calm with a turning body and restless drapery.",
+    "timerSeconds": 180,
+    "lookingPrompts": [
+      "Follow the turn from the weight-bearing leg through the hips, abdomen, shoulders, and head. Where does the body's slow spiral begin?",
+      "Look for the joins between separately carved marble sections and compare polished flesh with deeply cut drapery. How does construction become part of the pose?",
+      "Imagine several possible positions for the missing arms, then test each against the shoulders, torso, and direction of the gaze. How much certainty does the surviving body allow?"
+    ],
+    "whatItAsked": "The statue, discovered on Melos in 1820, was assembled from separately carved marble sections. Its original arm position and attribute remain uncertain, but the surviving figure combines a Classical ideal of bodily proportion with the twisting movement and strong contrasts favored in Hellenistic sculpture.",
+    "whatItFormed": "The Venus de Milo helped define the modern museum's ideal of ancient female beauty: calm, white, balanced, and fragmentary. The Louvre's promotion of the statue after its discovery gave institutional authority to that taste and turned an uncertain reconstruction into a cultural certainty. Her missing arms keep the viewer mentally active because every proposed gesture changes her identity and story. The sculpture trains us to see how museums, damage, and imagination help create the masterpieces a culture believes it inherited."
+  },
+  {
+    "id": "water-lilies-orangerie",
+    "title": "The Water Lilies at the Orangerie",
+    "artist": "Claude Monet",
+    "year": "1914–1926; installed 1927",
+    "kind": "painting",
+    "cityId": "paris",
+    "locationId": "paris-orangerie",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Mus%C3%A9e_de_L%27Orangerie_Water_Lilies_Pano_1.jpg?width=1280",
+    "cardBlurb": "Eight monumental compositions turn two oval rooms into a horizonless field of water and light.",
+    "timerSeconds": 300,
+    "lookingPrompts": [
+      "Stand close enough to see separate strokes, then move back until water, lilies, clouds, and willow reflections appear. At what distance does paint become place?",
+      "Search for a horizon or stable bank. How does its absence affect your balance, scale, and sense of where the sky begins?",
+      "Walk the curve of each room as every position reveals a different portion of the cycle. How do peripheral vision, duration, and changing daylight complete the work?"
+    ],
+    "whatItAsked": "Monet created eight compositions from multiple panels, each 1.97 metres high, and planned their placement with architect Camille Lefèvre in two elliptical rooms lit from above. The ensemble covers roughly 200 square metres and grew from Monet's post-armistice gift to France, conceived as a monument to peace.",
+    "whatItFormed": "Monet made painting into an environment that surrounds the body and exceeds a single glance. The Orangerie rooms helped prepare the way for abstract fields, panoramic installation, and art understood through duration. Conceived after the First World War as a gift to France, the cycle proposed sustained attention as a form of public remembrance. It trains us to slow down, accept unstable perception, and notice how reflection can dissolve the boundary between surface and depth."
+  },
+  {
+    "id": "lady-unicorn",
+    "title": "The Lady and the Unicorn",
+    "artist": "Unknown Parisian designer and Netherlandish weavers",
+    "year": "c. 1500",
+    "kind": "artifact",
+    "cityId": "paris",
+    "locationId": "paris-cluny",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/The_Lady_and_the_unicorn_Desire.jpg?width=960",
+    "cardBlurb": "Six tapestries turn sight, hearing, taste, smell, touch, and desire into a courtly world.",
+    "timerSeconds": 300,
+    "lookingPrompts": [
+      "In each of the first five tapestries, identify the object, gesture, or animal that activates a sense. Which clues make the sense legible before you read the title?",
+      "Look beyond the lady, lion, and unicorn. How do monkeys, dogs, rabbits, birds, flowers, and fruit echo appetite, attention, loyalty, and courtly behavior?",
+      "In the sixth scene, is the lady taking a necklace from the casket or putting it away? How does that small uncertainty change the meaning of À mon seul désir?"
+    ],
+    "whatItAsked": "These six costly wool-and-silk tapestries were designed around 1500, probably in Paris, and woven in the Southern Netherlands for a member of the Le Viste family. Five present the senses, while the sixth carries an inscription whose meaning, perhaps love, free will, renunciation, or inner desire, remains unresolved.",
+    "whatItFormed": "The cycle taught a courtly household to see the senses as powers requiring education, ceremony, and self-command. Luxury materials, family heraldry, female gesture, and attentive animals turned private rooms into lessons about rank and conduct. The sixth tapestry prevents a settled conclusion because the same gesture can suggest acceptance, renunciation, love, or free choice. It trains us to build interpretations from material evidence while leaving genuine uncertainty intact."
+  },
+  {
+    "id": "st-marks-mosaics",
+    "title": "Mosaics of St. Mark's Basilica",
+    "artist": "Byzantine, Venetian, and other mosaicists",
+    "year": "late 11th–13th centuries, with later replacements",
+    "kind": "architecture",
+    "cityId": "venice",
+    "locationId": "venice-san-marco",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Interior_of_St._Mark%27s_Basilica_in_Venice_1.jpg/1280px-Interior_of_St._Mark%27s_Basilica_in_Venice_1.jpg",
+    "cardBlurb": "Gold-ground mosaics make biblical history, liturgy, and Venetian power occupy the same interior.",
+    "timerSeconds": 300,
+    "lookingPrompts": [
+      "Look closely at the gold tesserae. Their surfaces sit at slightly different angles. How does that irregularity make light move when you move?",
+      "Follow a biblical sequence across a dome, arch, or vault. How do curved architecture and the worshipper's path determine the order of reading?",
+      "Compare solemn medieval figures with later, more muscular or theatrical replacements. What does each repair reveal about the Venice that commissioned it?"
+    ],
+    "whatItAsked": "Generations of mosaicists covered the domes, vaults, and upper walls of Venice's state basilica with glass and gold tesserae. The program required Byzantine knowledge, Venetian workshops, sustained public wealth, and centuries of repair as biblical narratives were fitted to a complex building centered on the relics of Saint Mark.",
+    "whatItFormed": "The mosaics taught Venetians to place sacred history and the history of their republic inside the same golden world. Byzantine techniques and imagery gave Venice a claim to inherited Christian authority, while maritime wealth paid for an interior that made that claim visible. Centuries of replacement record changing ideas of beauty, skill, and fidelity. The basilica trains us to see preservation as a sequence of cultural judgments about what deserves continuity and what may be rewritten."
+  },
+  {
+    "id": "titian-assumption",
+    "title": "Assumption of the Virgin",
+    "artist": "Titian",
+    "year": "1516–1518",
+    "kind": "painting",
+    "cityId": "venice",
+    "locationId": "venice-frari",
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Tizian_041.jpg?width=960",
+    "cardBlurb": "A nearly seven-metre altarpiece carries the Virgin upward through gesture, color, and light.",
+    "timerSeconds": 300,
+    "lookingPrompts": [
+      "Follow the three major fields of red among the apostles, Mary, and God. How does color carry your eye upward before you identify the figures?",
+      "Compare the apostles' crossing arms and unstable poses with Mary's open gesture and centered body. Where does confusion become order?",
+      "Imagine the altarpiece from the far end of the Frari's nave. Which details disappear, and which masses, colors, and gestures grow stronger with distance?"
+    ],
+    "whatItAsked": "Titian designed the enormous oil-on-panel altarpiece for the high altar of the Franciscan basilica of Santa Maria Gloriosa dei Frari. Its scale, forceful gestures, concentrated reds, and three-part structure had to remain legible across a vast Gothic church and operate within the celebration of the liturgy.",
+    "whatItFormed": "Titian gave Venetian sacred painting a new public scale built through color, bodily motion, and distance. The congregation could follow the doctrine of the Assumption through a physical route from astonished apostles to the rising Virgin and the receiving figure of God. The altarpiece influenced later painters who used color as a structural force capable of organizing large emotional scenes. It trains us to judge an artwork in the place and at the distance for which it was made, where scale becomes part of meaning."
+  },
+  {
+    "id": "tintoretto-san-rocco",
+    "title": "Tintoretto's Cycles at San Rocco",
+    "artist": "Jacopo Tintoretto",
+    "year": "1564–c. 1588",
+    "kind": "painting",
+    "cityId": "venice",
+    "locationId": "venice-scuola-rocco",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Crucifixion%2C_Scuola_Grande_di_San_Rocco.jpg/1280px-Crucifixion%2C_Scuola_Grande_di_San_Rocco.jpg",
+    "cardBlurb": "More than sixty canvases turn a confraternity's rooms into an extended scriptural world.",
+    "timerSeconds": 300,
+    "lookingPrompts": [
+      "In the Crucifixion, begin with Christ and follow the diagonals outward into ladders, ropes, horses, laborers, mourners, and the two thieves. How many times does the story ask you to change moral focus?",
+      "Look for figures cut by edges, bodies seen from below, and faces emerging from darkness. How does Tintoretto use incomplete views to make the room feel larger than the canvas?",
+      "Move between wall paintings and ceiling paintings. How does each canvas use your position, the doorway, and the neighboring scenes to control when its story becomes clear?"
+    ],
+    "whatItAsked": "Tintoretto worked for more than twenty years on over sixty Old and New Testament canvases for the Scuola Grande di San Rocco, a lay charitable confraternity. He adjusted dramatic light, accelerated brushwork, daring viewpoints, and large figures to dim interiors and to paintings viewed overhead or across richly furnished rooms.",
+    "whatItFormed": "The cycles placed members of a charitable confraternity inside an extended history of suffering, mercy, sacrifice, and deliverance. Their civic work acquired a religious measure because the images surrounded meetings, worship, and acts of aid. Tintoretto's abrupt light, extreme viewpoints, and room-sized sequences also prepared viewers for the spatial drama of later Baroque art. The building trains us to see narrative through movement and accumulation, since an isolated reproduction carries only part of the argument."
+  },
+  {
+    "id": "brunelleschi-dome",
+    "title": "Dome of Florence Cathedral",
+    "artist": "Filippo Brunelleschi",
+    "year": "1420–1436",
+    "kind": "architecture",
+    "cityId": "florence",
+    "locationId": "florence-duomo",
+    "image": "https://images.pexels.com/photos/2422461/pexels-photo-2422461.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "cardBlurb": "Florence completed its cathedral through an octagonal masonry vault built without full wooden centering.",
+    "timerSeconds": 180,
+    "lookingPrompts": [
+      "The dome rises as an eight-sided pointed vault whose curve tightens toward the lantern. How do the ribs turn a structural solution into Florence's public silhouette?",
+      "Look for the herringbone brick pattern, where some bricks turn upright across horizontal courses. How could that pattern help the masonry hold together during construction?",
+      "Consider the space between the inner and outer shells, where stairs, ribs, chains, and maintenance routes remain hidden. How much of the visible monument depends on concealed systems?"
+    ],
+    "whatItAsked": "Brunelleschi solved a problem that had delayed the cathedral for generations: spanning the enormous octagonal crossing without a full timber centering. A double shell, ribs, herringbone brickwork, purpose-built hoists, careful work sequences, and the labor of a highly organized building site carried the masonry upward between 1420 and 1436.",
+    "whatItFormed": "The dome taught Florence to identify civic greatness with technical intelligence, disciplined risk, and organized labor. Brunelleschi's machines, drawings, work sequences, and control of the building process strengthened the architect's role as the designer of an entire system. Its silhouette gave competing neighborhoods a shared image of the city while announcing Florentine ability across Tuscany. It trains us to look beneath the name of one celebrated creator and recognize the materials, workers, measurements, and institutions that made ambition stand."
+  },
+  {
+    "id": "ghiberti-gates",
+    "title": "Gates of Paradise",
+    "artist": "Lorenzo Ghiberti and workshop",
+    "year": "1425–1452",
+    "kind": "sculpture",
+    "cityId": "florence",
+    "locationId": "florence-baptistery",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Lorenzo_Ghiberti-The_Gates_of_Paradise_-_Original-Museo_dell%27Opera_del_Duomo_%28Florence%29.jpg/1280px-Lorenzo_Ghiberti-The_Gates_of_Paradise_-_Original-Museo_dell%27Opera_del_Duomo_%28Florence%29.jpg",
+    "cardBlurb": "Ten gilded bronze panels compress generations of Old Testament history into convincing space.",
+    "timerSeconds": 300,
+    "lookingPrompts": [
+      "Find a figure who appears more than once in a single panel. How does repeated identity allow Ghiberti to compress years of sacred history into one landscape?",
+      "Compare nearly freestanding foreground bodies with shallow figures and fine lines in the distance. How does relief depth perform the work of atmosphere and perspective?",
+      "Search the borders for prophets, plants, animals, and Ghiberti's own portrait head. Why place the maker among the witnesses to biblical history?"
+    ],
+    "whatItAsked": "The Calimala wool merchants' guild commissioned Ghiberti after his earlier Baptistery doors, and he spent twenty-seven years designing, casting, chasing, assembling, and gilding the ten Old Testament panels with a large workshop. Linear perspective, lost-wax casting, varied relief, and multiple episodes within one setting allowed bronze to carry the spatial reach of painting.",
+    "whatItFormed": "The doors taught Florentines to read sacred time as a coherent world of bodies, buildings, landscapes, and repeated events. Their public position made perspective and classical form available at a religious threshold long before such ideas became museum history. The project also raised bronze casting and workshop coordination into forms of intellectual achievement. Today the originals and outdoor replicas train us to distinguish an artwork's material survival from the architectural role that gave it meaning."
+  },
+  {
+    "id": "botticelli-primavera",
+    "title": "Primavera",
+    "artist": "Sandro Botticelli",
+    "year": "c. 1480",
+    "kind": "painting",
+    "cityId": "florence",
+    "locationId": "florence-uffizi",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Botticelli-primavera.jpg/1280px-Botticelli-primavera.jpg",
+    "cardBlurb": "Nine mythological figures inhabit an orange grove where desire, fertility, restraint, and renewal meet.",
+    "timerSeconds": 300,
+    "lookingPrompts": [
+      "Read the right side as a sequence: Zephyr seizes Chloris, flowers leave her mouth, and Flora steps forward richly dressed. How does Botticelli turn one body into another within one continuous scene?",
+      "Venus stands slightly behind the others beneath an arch of myrtle while blindfolded Cupid aims above her. How does the quiet center govern the more dangerous forms of desire around it?",
+      "Study the transparent veils and linked hands of the Three Graces, then look at Mercury pushing toward the clouds. What kinds of desire, restraint, and exclusion appear on the left?"
+    ],
+    "whatItAsked": "Botticelli created a large tempera painting on poplar panel for a sophisticated Florentine domestic setting. Classical poetry and sculpture, humanist learning, courtly behavior, and close botanical observation meet in a composition whose patronage, exact subject, and original occasion remain debated.",
+    "whatItFormed": "Primavera trained elite Florentine viewers to treat mythological painting as a serious field for examining marriage, fertility, persuasion, self-command, and social conduct. Its meaning emerges through relations among pursuit, transformation, dancing restraint, blind desire, and Venus's governing presence. The painting helped make learned interpretation part of cultural status, since viewers had to connect poetry, philosophy, botany, and gesture. It still trains us to test several readings against visible evidence and to resist the comfort of a single tidy explanation."
+  },
+  {
+    "id": "kinkakuji",
+    "title": "Kinkaku, the Golden Pavilion",
+    "artist": "Designer unknown; commissioned by Ashikaga Yoshimitsu",
+    "year": "original 1397; present reconstruction 1955",
+    "kind": "architecture",
+    "cityId": "kyoto",
+    "locationId": "kyoto-kinkakuji",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Kinkakuji_%28Golden_Pavilion%29%2C_Kyoto%2C_Japan.jpg/1280px-Kinkakuji_%28Golden_Pavilion%29%2C_Kyoto%2C_Japan.jpg",
+    "cardBlurb": "A shogun's relic hall joins gold, water, garden, political display, and Buddhist visions of paradise.",
+    "timerSeconds": 180,
+    "lookingPrompts": [
+      "Notice the plain lower story beneath the gilded upper levels. How does the upward change in material and architectural style organize worldly and sacred status?",
+      "Walk around Kyōko-chi and watch the reflection stretch, break, and re-form among islands, stones, and pines. How does the garden control the pavilion's image?",
+      "The present structure dates to 1955, while the form and site reach back to Yoshimitsu's villa. Where do you locate authenticity: material, design, ritual use, memory, or continued care?"
+    ],
+    "whatItAsked": "Ashikaga Yoshimitsu began his Kitayama villa in 1397 and made the three-storey relic hall its central image. The pavilion joined courtly, warrior, and Zen forms with gold leaf, sacred images, a carefully composed pond garden, political receptions, and the cultural exchange with Ming China that marked the Kitayama age. The present building reconstructs the pavilion destroyed by arson in 1950.",
+    "whatItFormed": "Kinkaku joined warrior government, courtly refinement, Zen institutions, garden design, and exchange with Ming China into one statement of cultivated rule. It helped establish an expectation that a building and its landscape should compose a single sequence of interdependent views. The 1955 reconstruction made cultural continuity depend on renewed material, skilled care, and public memory. The pavilion trains us to judge authenticity through the life of a tradition as well as the age of its timber."
+  },
+  {
+    "id": "ryoanji-garden",
+    "title": "Rock Garden at Ryōan-ji",
+    "artist": "Unknown designer",
+    "year": "date uncertain; probably late 15th–early 16th century",
+    "kind": "architecture",
+    "cityId": "kyoto",
+    "locationId": "kyoto-ryoanji",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Kyoto_Ryoanji.jpg/1280px-Kyoto_Ryoanji.jpg",
+    "cardBlurb": "Fifteen stones in five groups hold a field of raked gravel open to sustained interpretation.",
+    "timerSeconds": 600,
+    "lookingPrompts": [
+      "Map the fifteen stones as five uneven groups. How do their different heights, spacing, and moss bases prevent the field from settling into symmetry?",
+      "Look at the stained earthen wall, the raked gravel, and the edge of the veranda. How does each boundary control distance and concentrate attention?",
+      "The gravel pattern must be remade through regular labor. How does maintenance contribute to the experience of stillness and apparent emptiness?"
+    ],
+    "whatItAsked": "The dry garden arranges fifteen stones in five groups across white gravel, with moss and an earthen wall completing the enclosed field viewed from the abbot's veranda. Its designer, exact date, and original meaning remain unresolved, which requires the physical composition to carry the interpretation.",
+    "whatItFormed": "The garden formed a discipline of looking through restriction: few materials, a fixed viewing edge, uneven groups, and an unresolved narrative key. Its influence on modern art and design spread an image of Japanese restraint around the world, sometimes with more certainty than its disputed history allows. The daily work of raking also makes order a repeated practice carried out by human hands. Ryōan-ji trains us to sustain attention, examine spatial relationships, and let historical uncertainty remain part of responsible interpretation."
+  },
+  {
+    "id": "sanju-thousand",
+    "title": "Thousand-Armed Kannon Assembly at Sanjūsangen-dō",
+    "artist": "Tankei and numerous 12th- and 13th-century sculptors",
+    "year": "12th–13th centuries; principal image completed 1254",
+    "kind": "sculpture",
+    "cityId": "kyoto",
+    "locationId": "kyoto-sanju",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Sanjusangendo_Thousand-armed_Kannon.JPG/1280px-Sanjusangendo_Thousand-armed_Kannon.JPG",
+    "cardBlurb": "One seated and one thousand standing images make compassion visible as a sacred multitude.",
+    "timerSeconds": 300,
+    "lookingPrompts": [
+      "Most standing figures have two hands joined in prayer and forty extended arms, each carrying symbolic power. How does repeated complexity make compassion appear inexhaustible?",
+      "Compare faces, halos, drapery, and hand positions across several rows. Which differences become visible only because the overall pattern repeats?",
+      "The assembly combines 12th-century survivors, 13th-century replacements, and Tankei's central seated Kannon. Can you see one sacred community while knowing it was made across generations?"
+    ],
+    "whatItAsked": "After fire destroyed the earlier hall in 1249, sculptors rebuilt an extraordinary ensemble of gilded Japanese cypress images. One hundred twenty-four standing figures survived from the 12th century, 876 were made in the 13th century, and Tankei completed the great seated Kannon in 1254, creating a total of 1,001 images of the bodhisattva within the rebuilt hall.",
+    "whatItFormed": "The assembly made immeasurable compassion physically graspable through number, order, and sustained craft. Repetition makes minute differences matter: each face, fold, and hand belongs to a shared type while retaining an individual maker's decisions. After fire, surviving figures and new carvings were gathered into one sacred body, allowing continuity to include loss and replacement. The hall trains us to see abundance with patience and to understand tradition as work completed by many hands across several generations."
+  }
+]

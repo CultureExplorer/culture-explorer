@@ -1,0 +1,124 @@
+﻿{
+  "slug": "rome",
+  "center": [41.9028, 12.4964],
+  "zoom": 13,
+  "tours": {
+    "3": [
+      {
+        "day": 1,
+        "title": "The civic body",
+        "focus": "How Rome staged power in public space.",
+        "stops": ["rome-forum", "rome-colosseum", "rome-capitoline", "rome-ara-pacis"]
+      },
+      {
+        "day": 2,
+        "title": "The sacred machine",
+        "focus": "Empire becomes church without discarding form.",
+        "stops": ["rome-pantheon", "rome-pantheon-square", "rome-st-peters", "rome-st-peters-square"]
+      },
+      {
+        "day": 3,
+        "title": "Baroque persuasion",
+        "focus": "Marble, light, and the trained spectator.",
+        "stops": ["rome-santa-maria-vittoria", "rome-borghese", "rome-san-carlo", "rome-trevi"]
+      }
+    ],
+    "5": [
+      {
+        "day": 1,
+        "title": "Foundations",
+        "focus": "Republic and empire underfoot.",
+        "stops": ["rome-forum", "rome-colosseum", "rome-palatine"]
+      },
+      {
+        "day": 2,
+        "title": "The sphere and the sky",
+        "focus": "Engineering as worldview.",
+        "stops": ["rome-pantheon", "rome-pantheon-square", "rome-castel-sant-angelo"]
+      },
+      {
+        "day": 3,
+        "title": "Papal Rome",
+        "focus": "Scale, ceremony, and succession.",
+        "stops": ["rome-st-peters", "rome-st-peters-square", "rome-vatican-museums"]
+      },
+      {
+        "day": 4,
+        "title": "Private appetite, public art",
+        "focus": "Collectors and the modern museum.",
+        "stops": ["rome-borghese", "rome-capitoline"]
+      },
+      {
+        "day": 5,
+        "title": "Baroque streets",
+        "focus": "Movement, water, and persuasion.",
+        "stops": ["rome-santa-maria-vittoria", "rome-san-carlo", "rome-trevi", "rome-piazza-navona"]
+      }
+    ],
+    "7": [
+      {
+        "day": 1,
+        "title": "The Forum as argument",
+        "focus": "Law, religion, and reputation on one ground.",
+        "stops": ["rome-forum", "rome-capitoline"]
+      },
+      {
+        "day": 2,
+        "title": "Spectacle and rank",
+        "focus": "Who sits where, and what stays hidden.",
+        "stops": ["rome-colosseum", "rome-appian-way"]
+      },
+      {
+        "day": 3,
+        "title": "Cosmos in concrete",
+        "focus": "A sphere open to weather and time.",
+        "stops": ["rome-pantheon", "rome-pantheon-square"]
+      },
+      {
+        "day": 4,
+        "title": "The Vatican sequence",
+        "focus": "How rooms teach inheritance.",
+        "stops": ["rome-vatican-museums", "rome-st-peters", "rome-st-peters-square"]
+      },
+      {
+        "day": 5,
+        "title": "Bernini’s Rome",
+        "focus": "The spectator is part of the work.",
+        "stops": ["rome-santa-maria-vittoria", "rome-borghese", "rome-piazza-navona"]
+      },
+      {
+        "day": 6,
+        "title": "Neighborhood continuity",
+        "focus": "Reuse, mosaic, daily worship.",
+        "stops": ["rome-trastevere", "rome-janiculum"]
+      },
+      {
+        "day": 7,
+        "title": "Edges and return",
+        "focus": "Water, invention, and the living city.",
+        "stops": ["rome-trevi", "rome-san-carlo", "rome-caravaggio-san-luigi"]
+      }
+    ]
+  },
+  "pins": {
+    "rome-forum": [41.8925, 12.4853],
+    "rome-colosseum": [41.8902, 12.4922],
+    "rome-pantheon": [41.8986, 12.4769],
+    "rome-st-peters": [41.9022, 12.4539],
+    "rome-st-peters-square": [41.9029, 12.4531],
+    "rome-borghese": [41.9142, 12.4921],
+    "rome-santa-maria-vittoria": [41.9047, 12.4944],
+    "rome-trevi": [41.9009, 12.4833],
+    "rome-capitoline": [41.8931, 12.4828],
+    "rome-vatican-museums": [41.9065, 12.4536],
+    "rome-piazza-navona": [41.8992, 12.4731],
+    "rome-san-carlo": [41.9018, 12.4906],
+    "rome-castel-sant-angelo": [41.9031, 12.4663],
+    "rome-trastevere": [41.8897, 12.4708],
+    "rome-ara-pacis": [41.9066, 12.4755],
+    "rome-janiculum": [41.8916, 12.4614],
+    "rome-appian-way": [41.8575, 12.5165],
+    "rome-caravaggio-san-luigi": [41.8997, 12.4747],
+    "rome-pantheon-square": [41.8992, 12.4767]
+  }
+}

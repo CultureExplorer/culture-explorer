@@ -1,0 +1,60 @@
+﻿---
+import BaseLayout from "../../layouts/BaseLayout.astro"
+import { fetchMasterpieceBySlug, fetchMasterpieceSlugs } from "../../lib/sanity"
+
+export async function getStaticPaths() {
+  const slugs = await fetchMasterpieceSlugs()
+  return (slugs || []).map((slug) => ({ params: { slug } }))
+}
+
+const { slug } = Astro.params
+const work = await fetchMasterpieceBySlug(slug)
+if (!work) {
+  return Astro.redirect("/atlas")
+}
+const minutes = Math.round((work.timerSeconds || 300) / 60)
+---
+<BaseLayout title={`${work.title} — Culture Explorer`} description={work.cardBlurb}>
+  <section class="page-hero">
+    <div class="wrap">
+      <div class="kicker">Looking ritual · {minutes} min</div>
+      <h1>{work.title}</h1>
+      <p class="lede">{work.artist}{work.year ? ` · ${work.year}` : ""}</p>
+      <p class="muted">
+        {work.cityName}{work.locationName ? ` · ${work.locationName}` : ""}
+        {work.cityId && (
+          <> · <a href={`/cities/${work.cityId}`}>City guide</a></>
+        )}
+      </p>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap-narrow">
+      {work.image && (
+        <img src={work.image} alt={work.title} style="width:100%;border:1px solid var(--rule);margin-bottom:1.5rem;" />
+      )}
+      <p class="lede">{work.cardBlurb}</p>
+
+      <div class="section-head" style="margin-top:2.5rem;">
+        <div class="kicker">Before you read</div>
+        <h2>Look for {minutes} minutes</h2>
+      </div>
+      <ol>
+        {(work.lookingPrompts || []).map((p) => <li>{p}</li>)}
+      </ol>
+
+      <div class="section-head" style="margin-top:2.5rem;">
+        <h2>What it asked</h2>
+      </div>
+      <p>{work.whatItAsked}</p>
+
+      <div class="section-head" style="margin-top:2rem;">
+        <h2>What it formed</h2>
+      </div>
+      <p>{work.whatItFormed}</p>
+
+      <p style="margin-top:2.5rem;"><a class="btn" href="/atlas">← Atlas</a></p>
+    </div>
+  </section>
+</BaseLayout>
