@@ -1,5 +1,8 @@
 ﻿---
-const { title = "Culture Explorer — A field guide to beauty, memory, and civilization", description = "Learn to see what civilizations made, then see your own place with the same standard." } = Astro.props
+const {
+  title = "Culture Explorer — A field guide to beauty, memory, and civilization",
+  description = "Learn to see what civilizations made, then see your own place with the same standard.",
+} = Astro.props
 ---
 <!DOCTYPE html>
 <html lang="en">
@@ -24,26 +27,29 @@ const { title = "Culture Explorer — A field guide to beauty, memory, and civil
 <body>
   <header class="site-header">
     <div class="header-inner">
-     <a class="brand" href="/" style="display:flex;align-items:center;gap:0.65rem;text-decoration:none;">
-  <img
-    src="/logo.png"
-    alt="Culture Explorer"
-    width="40"
-    height="40"
-    style="width:40px;height:40px;border-radius:50%;object-fit:cover;flex-shrink:0;"
-  />
-  <span class="brand-name">Culture Explorer</span>
-</a>
-    <nav class="nav">
-  <a href="/see">How to See</a>
-  <a href="/atlas">Atlas</a>
-  <a href="/journeys">Journeys</a>
-  <a href="/street">Your Street</a>
-  <a href="/inheritance">Inheritance</a>
-  <a href="/essays">Essays</a>
-  <a href="/about">About</a>
-  <a class="btn btn-green" href="https://newsletter.thecultureexplorer.com" target="_blank" rel="noopener">Subscribe</a>
-</nav>
+      <a class="brand" href="/" style="display:flex;align-items:center;gap:0.65rem;text-decoration:none;">
+        <img
+          src="/logo.png"
+          alt="Culture Explorer"
+          width="40"
+          height="40"
+          style="width:40px;height:40px;border-radius:50%;object-fit:cover;flex-shrink:0;"
+        />
+        <span class="brand-name">Culture Explorer</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-label="Open menu">
+        <span></span>
+      </button>
+      <nav class="nav">
+        <a href="/see">How to See</a>
+        <a href="/atlas">Atlas</a>
+        <a href="/journeys">Journeys</a>
+        <a href="/street">Your Street</a>
+        <a href="/inheritance">Inheritance</a>
+        <a href="/essays">Essays</a>
+        <a href="/about">About</a>
+        <a class="btn btn-green" href="https://newsletter.thecultureexplorer.com" target="_blank" rel="noopener">Subscribe</a>
+      </nav>
     </div>
   </header>
 
@@ -64,8 +70,8 @@ const { title = "Culture Explorer — A field guide to beauty, memory, and civil
             <a href="/see">How to See</a>
             <a href="/atlas">Atlas</a>
             <a href="/journeys">Journeys</a>
-            <a href="/#street">Your Street</a>
-            <a href="/#inheritance">Inheritance</a>
+            <a href="/street">Your Street</a>
+            <a href="/inheritance">Inheritance</a>
           </div>
         </div>
         <div>
@@ -73,7 +79,7 @@ const { title = "Culture Explorer — A field guide to beauty, memory, and civil
           <div class="foot-links">
             <a href="https://newsletter.thecultureexplorer.com" target="_blank" rel="noopener">Newsletter</a>
             <a href="https://x.com/CultureExploreX" target="_blank" rel="noopener">X</a>
-            <a href="/#about">About</a>
+            <a href="/about">About</a>
           </div>
         </div>
       </div>
@@ -83,5 +89,11 @@ const { title = "Culture Explorer — A field guide to beauty, memory, and civil
       </div>
     </div>
   </footer>
+
+  <script is:inline>
+    document.querySelector(".nav-toggle")?.addEventListener("click", () => {
+      document.querySelector(".nav")?.classList.toggle("is-open");
+    });
+  </script>
 </body>
 </html>
